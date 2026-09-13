@@ -1,0 +1,81 @@
+{
+  "round1": {
+    "rubric_edpex": {
+      "categories": 7,
+      "items": 17,
+      "points": 1000,
+      "indicator_references": 220,
+      "indicator_references_category7": 107,
+      "category_points": {
+        "1": 115,
+        "2": 90,
+        "3": 85,
+        "4": 90,
+        "5": 85,
+        "6": 85,
+        "7": 450
+      }
+    },
+    "rubric_pmqa": null,
+    "process_items_linked_to_results": 5,
+    "distinct_results_indicators_linked": 40,
+    "create_table_statements": 120,
+    "migration_files": 92,
+    "aunqa_schema_files": 1,
+    "oo_types_src": 14,
+    "tenant_id_migration_files": 59,
+    "test_methods": 340,
+    "tqf_mentions_config_schema_app": 26,
+    "app_tenant_call_sites": 99,
+    "git": {
+      "commits": 610,
+      "first_commit_date": "2026-06-11",
+      "last_commit_date": "2026-06-28"
+    }
+  },
+  "round2": {
+    "rubric_edpex": {
+      "categories": 7,
+      "items": 17,
+      "points": 1000,
+      "indicator_references": 220,
+      "indicator_references_category7": 107,
+      "category_points": {
+        "1": 115,
+        "2": 90,
+        "3": 85,
+        "4": 90,
+        "5": 85,
+        "6": 85,
+        "7": 450
+      }
+    },
+    "rubric_pmqa": {
+      "categories": 7,
+      "items": 12,
+      "points": 1000
+    },
+    "process_items_linked_to_results": 12,
+    "distinct_results_indicators_linked": 61,
+    "create_table_statements": 260,
+    "migration_files": 146,
+    "aunqa_schema_files": 1,
+    "oo_types_src": 18,
+    "tenant_id_migration_files": 89,
+    "test_methods": 45,
+    "tqf_mentions_config_schema_app": 46,
+    "app_tenant_call_sites": 115,
+    "git": {
+      "commits": 38,
+      "first_commit_date": "2026-06-27",
+      "last_commit_date": "2026-09-08"
+    },
+    "pmqa_addition_files": [
+      ".github/workflows/tests.yml",
+      "config/pmqa.json",
+      "schema/156_pmqa.sql",
+      "tests/Pmqa/PmqaScoringTest.php"
+    ],
+    "pmqa_addition_touched_scoring_engine": false
+  }
+}

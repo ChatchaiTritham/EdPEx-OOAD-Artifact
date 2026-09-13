@@ -1,0 +1,47 @@
+-- DDL extracted from 131_alumni_tracer_study.sql (sha256 33f49397f4ee6aadf6471ea85ecf75c81286d22cdd253e7ba453d1cb2c9c7403)
+CREATE TABLE IF NOT EXISTS alumni_career_records (
+    id                    CHAR(36)      NOT NULL,
+    tenant_id             VARCHAR(40)   NOT NULL DEFAULT 'utk_ic',
+    student_id            VARCHAR(50)   NOT NULL COMMENT 'รหัสนักศึกษา หรือ FK นักศึกษา',
+    full_name             VARCHAR(255)  NOT NULL,
+    curriculum_code       VARCHAR(50)   NOT NULL DEFAULT 'IC-BBA',
+    graduation_year       SMALLINT      NOT NULL DEFAULT 2568 COMMENT 'ปีการศึกษาที่สำเร็จการศึกษา',
+    employment_status     ENUM('employed_fulltime','employed_parttime','entrepreneur_freelance','further_study','seeking_employment','other') NOT NULL DEFAULT 'employed_fulltime',
+    job_title             VARCHAR(255)  NULL COMMENT 'ตำแหน่งงาน',
+    company_name          VARCHAR(255)  NULL COMMENT 'ชื่อบริษัท / หน่วยงาน',
+    industry_sector       VARCHAR(100)  NULL COMMENT 'ภาคอุตสาหกรรม e.g. Logistics, Finance, IT, Tourism, Manufacturing',
+    work_location_country VARCHAR(100)  NOT NULL DEFAULT 'Thailand' COMMENT 'ประเทศที่ทำงาน',
+    monthly_salary        DECIMAL(10,2) NULL COMMENT 'เงินเดือนปัจจุบัน (บาท)',
+    field_alignment       ENUM('exact_match','related','unrelated') NOT NULL DEFAULT 'exact_match' COMMENT 'ความตรงของงานกับสาขาวิชา',
+    time_to_employment    ENUM('before_graduation','within_3m','within_6m','within_12m','over_12m') NOT NULL DEFAULT 'within_3m',
+    email                 VARCHAR(255)  NULL,
+    phone                 VARCHAR(50)   NULL,
+    linkedin_url          VARCHAR(255)  NULL,
+    created_at            DATETIME      NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at            DATETIME      NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (id),
+    UNIQUE KEY uq_alumni_student_year (tenant_id, student_id, graduation_year),
+    KEY idx_alumni_emp_stat (employment_status),
+    KEY idx_alumni_grad_yr (graduation_year)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS employer_satisfaction_surveys (
+    id                    CHAR(36)      NOT NULL,
+    tenant_id             VARCHAR(40)   NOT NULL DEFAULT 'utk_ic',
+    company_name          VARCHAR(255)  NOT NULL COMMENT 'ชื่อบริษัท / สถานประกอบการที่ประเมิน',
+    evaluator_name        VARCHAR(255)  NULL COMMENT 'ชื่อ-สกุล ผู้ประเมิน / ตำแหน่ง',
+    contact_email         VARCHAR(255)  NULL,
+    academic_year         SMALLINT      NOT NULL DEFAULT 2569,
+    curriculum_code       VARCHAR(50)   NOT NULL DEFAULT 'IC-BBA',
+    score_ethics          DECIMAL(3,2)  NOT NULL DEFAULT 4.50 COMMENT 'คุณธรรม จริยธรรม วินัยในการทำงาน',
+    score_technical       DECIMAL(3,2)  NOT NULL DEFAULT 4.30 COMMENT 'ความรู้ความสามารถทางวิชาชีพเฉพาะทาง',
+    score_soft_skills     DECIMAL(3,2)  NOT NULL DEFAULT 4.40 COMMENT 'ทักษะการสื่อสารและการทำงานร่วมกับผู้อื่น',
+    score_english_tech    DECIMAL(3,2)  NOT NULL DEFAULT 4.60 COMMENT 'ทักษะภาษาอังกฤษและการใช้เทคโนโลยีดิจิทัล',
+    score_problem_solving DECIMAL(3,2)  NOT NULL DEFAULT 4.20 COMMENT 'การคิดวิเคราะห์และการแก้ไขปัญหา',
+    score_overall         DECIMAL(3,2)  GENERATED ALWAYS AS (ROUND((score_ethics + score_technical + score_soft_skills + score_english_tech + score_problem_solving) / 5, 2)) STORED,
+    strengths_feedback    TEXT          NULL COMMENT 'จุดเด่นของบัณฑิต',
+    improvements_feedback TEXT          NULL COMMENT 'ข้อเสนอแนะในการพัฒนาหลักสูตร',
+    created_at            DATETIME      NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id),
+    KEY idx_emp_yr (academic_year)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

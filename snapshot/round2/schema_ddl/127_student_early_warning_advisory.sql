@@ -1,0 +1,47 @@
+-- DDL extracted from 127_student_early_warning_advisory.sql (sha256 8d24a7252eb8ebb5eda0b43ecfdad598ba8f29d2de0aeded3bd9e8f544b2bfba)
+CREATE TABLE IF NOT EXISTS student_risk_assessments (
+    id                     CHAR(36)      NOT NULL,
+    tenant_id              VARCHAR(40)   NOT NULL DEFAULT 'utk_ic',
+    person_id              CHAR(36)      NOT NULL COMMENT 'FK th_ac_rmutk_ic_person.id or students.id',
+    academic_year          SMALLINT      NOT NULL COMMENT 'พ.ศ. e.g. 2567',
+    semester               TINYINT       NOT NULL COMMENT '1, 2, or 3',
+    academic_risk_level    ENUM('none','low','medium','high','critical') NOT NULL DEFAULT 'none',
+    attendance_risk_level  ENUM('none','low','medium','high') NOT NULL DEFAULT 'none',
+    financial_risk_level   ENUM('none','low','medium','high') NOT NULL DEFAULT 'none',
+    overall_risk_tier      ENUM('green','yellow','orange','red') NOT NULL DEFAULT 'green',
+    current_gpax           DECIMAL(3,2)  NULL,
+    failed_credits_count   INT UNSIGNED  NOT NULL DEFAULT 0,
+    risk_triggers          TEXT          NULL COMMENT 'JSON or text list of risk trigger rules that fired',
+    status                 ENUM('open','under_monitoring','resolved','escalated') NOT NULL DEFAULT 'open',
+    assessed_by            CHAR(36)      NULL,
+    created_at             DATETIME      NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at             DATETIME      NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (id),
+    UNIQUE KEY uq_student_risk_term (tenant_id, person_id, academic_year, semester),
+    KEY idx_student_risk_person (person_id),
+    KEY idx_student_risk_tier (overall_risk_tier),
+    KEY idx_student_risk_status (status)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS student_advisory_cases (
+    id                   CHAR(36)     NOT NULL,
+    tenant_id            VARCHAR(40)  NOT NULL DEFAULT 'utk_ic',
+    person_id            CHAR(36)     NOT NULL COMMENT 'Student reference',
+    risk_assessment_id   CHAR(36)     NULL COMMENT 'FK student_risk_assessments.id (optional)',
+    advisor_user_id      CHAR(36)     NULL COMMENT 'Advisor/Counselor user ID',
+    case_category        ENUM('academic','personal_wellbeing','career_guidance','financial','other') NOT NULL DEFAULT 'academic',
+    consultation_date    DATE         NOT NULL,
+    issue_summary        TEXT         NOT NULL,
+    intervention_plan    TEXT         NULL COMMENT 'Action plan, tutoring, assistance offered',
+    referral_target      VARCHAR(255) NULL COMMENT 'Counseling Center, Registrar, Dean, etc.',
+    outcome_status       ENUM('pending','improved','no_change','closed') NOT NULL DEFAULT 'pending',
+    outcome_notes        TEXT         NULL,
+    follow_up_date       DATE         NULL,
+    created_at           DATETIME     NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at           DATETIME     NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (id),
+    KEY idx_advisory_person (person_id),
+    KEY idx_advisory_advisor (advisor_user_id),
+    KEY idx_advisory_status (outcome_status),
+    KEY idx_advisory_date (consultation_date)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

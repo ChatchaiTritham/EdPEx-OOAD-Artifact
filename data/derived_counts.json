@@ -1,0 +1,271 @@
+{
+  "round1": {
+    "head_commit": "86c5040",
+    "snapshot_basis": "working tree on the extraction date (HEAD plus uncommitted changes)",
+    "uncommitted_paths": 178,
+    "git": {
+      "commits": 610,
+      "first_commit_date": "2026-06-11",
+      "last_commit_date": "2026-06-28"
+    },
+    "tests": {
+      "tests/ApiHelpersTest.php": {
+        "sha256": "ec4865ad6999a27fdd49b302426ca206f4c7d8b35aed2225f9dbf28961e2ce36",
+        "test_methods": 1
+      },
+      "tests/ApiRoutesStructureTest.php": {
+        "sha256": "a6ae52b59c6e4d660b5fd93fdce8ede306d1a1241144e82030482247695ded3b",
+        "test_methods": 6
+      },
+      "tests/AuthRateLimitTest.php": {
+        "sha256": "33bfda99494922ccef042dd8d436e8acb971b85e780ee357f3b53da23812dd0c",
+        "test_methods": 4
+      },
+      "tests/ChartsScoringExtraTest.php": {
+        "sha256": "98724ff21e60fe8742e05d26a95ed6ab29a3087ca0cd7b4c212ec5f79684a067",
+        "test_methods": 7
+      },
+      "tests/ChartsTest.php": {
+        "sha256": "c2ab891d88a61a55f42ba59bca4d5fe3516b3c50bde0a241909dc6dde85e2644",
+        "test_methods": 2
+      },
+      "tests/CoreHelpersTest.php": {
+        "sha256": "4963a3c2154fd0067ea464d9fa4551d96569be3da5cf55add112bfa60fab9dfb",
+        "test_methods": 9
+      },
+      "tests/CoverageGateTest.php": {
+        "sha256": "67195fd96d3879f058af970c8bebe3c618bb862b8a24f99d074cab2cff7b14d6",
+        "test_methods": 2
+      },
+      "tests/CriteriaAreasTest.php": {
+        "sha256": "e5423f90db83a01ff7825fd923c9b557ab2ee3e988ee7e43f6d0d17fffc21ab7",
+        "test_methods": 2
+      },
+      "tests/CsrfTokenTest.php": {
+        "sha256": "8a629c5d8454d09bdd71e66a454bf07043dafc04d2dcb71eb23d9db169db9eff",
+        "test_methods": 4
+      },
+      "tests/CycleFlowTest.php": {
+        "sha256": "545f7cc2c2f724eff2cd84da999e0ecab2e92af2ec31a0614b9e8eebf2d6fa8c",
+        "test_methods": 6
+      },
+      "tests/DbValidateTest.php": {
+        "sha256": "bebcc5bf4b9c944e7f5692542d58bef6163f0f7d6f116a083daabcaf5a32cd50",
+        "test_methods": 8
+      },
+      "tests/DebloatHelpersTest.php": {
+        "sha256": "9bacb009e6ea8faf5b3451ad06a9b97e9466710178578b47caceb795bf84989b",
+        "test_methods": 6
+      },
+      "tests/DomainEntryTest.php": {
+        "sha256": "301d82f53cdd270ba7cbe94135930fcd6887201d1307728e490442950b3d1021",
+        "test_methods": 115
+      },
+      "tests/DomainScoringTest.php": {
+        "sha256": "62e1131c3bcce3001dadcb6f597e461ac4ff78f20d370a5875d0a9e0e369c6bc",
+        "test_methods": 8
+      },
+      "tests/EcosystemLegacyApiTest.php": {
+        "sha256": "eb61e30d7e21b815e11cfafce67e025027204981c4fe28ef1081d17d888c7909",
+        "test_methods": 3
+      },
+      "tests/EdpexTest.php": {
+        "sha256": "73a36e514be426c4b53cd54a4c4404321f8a65bb1808d47f63d8f347bcf42b14",
+        "test_methods": 4
+      },
+      "tests/FrameworkAggregateTest.php": {
+        "sha256": "a0d3c915e6a347e1545157ef434755cb8def797487b828e7315028cf6b3b0135",
+        "test_methods": 6
+      },
+      "tests/GateTest.php": {
+        "sha256": "428f558d7e1aed8e8b4331772ea4f3fe406cdf36609e0caad298cbab8bc682be",
+        "test_methods": 2
+      },
+      "tests/GovernanceFoundationTest.php": {
+        "sha256": "0440cde736ac394f64c975811cb3b26647b8da597c2465e4a498f4af029581cb",
+        "test_methods": 6
+      },
+      "tests/GovernanceHelpersTest.php": {
+        "sha256": "3fc75575731e1c5ccdbe6ca2f50fddb700cb3a48a6d3207ba8fdac0ee8d410f5",
+        "test_methods": 3
+      },
+      "tests/GovernanceHitlTest.php": {
+        "sha256": "78b40d6cada4a563561dc5845b63c56298b63ca2ce94364bcc580e554fcb4158",
+        "test_methods": 4
+      },
+      "tests/GovernanceTest.php": {
+        "sha256": "4758d5ddc487deb1ebab929afe4d527d85a0f15429f0fd48250ecf8e77ff35fc",
+        "test_methods": 5
+      },
+      "tests/HelpersTest.php": {
+        "sha256": "2f0a0ff8645c3194edaaee978e466c5850ad10210dd108dd1aa91026d5171468",
+        "test_methods": 2
+      },
+      "tests/ImprovementTest.php": {
+        "sha256": "200315f5331043ca1c4a4e1aa7f6db609d2be567814ff83f812d05bf761970c2",
+        "test_methods": 3
+      },
+      "tests/JourneyTest.php": {
+        "sha256": "c99eb470a106fe47a120d93f1703c9d65c1ebeb6c3e27e6004aa0665edb16d32",
+        "test_methods": 2
+      },
+      "tests/LetciHarvestTest.php": {
+        "sha256": "06614c511835f45f7061e0e3f0b7f4aba37ead97f7a90e7fd57ab9cef875fdd9",
+        "test_methods": 15
+      },
+      "tests/LetciInsightsTest.php": {
+        "sha256": "42ebdb85045db8a0ed8e3238cb067eaef6d2f96ba84270c63785b64cdf1be368",
+        "test_methods": 5
+      },
+      "tests/MethodTest.php": {
+        "sha256": "9a54b0ff19698e8e54425a0e51af2dc716b9083378f4707595d74f7a803c551c",
+        "test_methods": 3
+      },
+      "tests/OpAutoSourceTest.php": {
+        "sha256": "03280235643c4654ea20a4dfa0224d353a0e18114900d38a1d8c66093cc34e63",
+        "test_methods": 3
+      },
+      "tests/OpCategoryMapTest.php": {
+        "sha256": "e47e8676e7bbdda924b33af88cb802665ca1030d60d67d8766165ae1387bbb29",
+        "test_methods": 2
+      },
+      "tests/OpInsightsExtraTest.php": {
+        "sha256": "32d0987945c3f7306919c055445e925152bb923743a2fe39947e8dbc3c505045",
+        "test_methods": 7
+      },
+      "tests/OpInsightsTest.php": {
+        "sha256": "4509be13cf634e156901316a93751e10f44baa87d6bda6e7ea8974dbe6200abd",
+        "test_methods": 5
+      },
+      "tests/OpProfileTest.php": {
+        "sha256": "448eed0eed64803e4cb910b726dafa0ede0d52e6e9a5a86078a752572c314dda",
+        "test_methods": 4
+      },
+      "tests/OverallRollupTest.php": {
+        "sha256": "2dc7e27e2b34a89de19cba4d42ee09763e9cc76cff421f5a118899e11bff9b24",
+        "test_methods": 7
+      },
+      "tests/PipelineToolsTest.php": {
+        "sha256": "4703b4481ae41acf0362c6e43a6d870b2860f102bf7b1087d4d543c16388d464",
+        "test_methods": 4
+      },
+      "tests/PureDomainExtraTest.php": {
+        "sha256": "0a4e72832230ec0f2a6fd226addec2c12962ed28100cf8bc0fbfed493a5ed048",
+        "test_methods": 7
+      },
+      "tests/ReportHelpersTest.php": {
+        "sha256": "1e1368058321928c71962f767f071ac53e2925473b4683f4f93c446b150432e0",
+        "test_methods": 5
+      },
+      "tests/RoadmapTest.php": {
+        "sha256": "10fed806cf0f585ee101ed15cda8386dbcf38ad3f6c72efe82c63b699200b6e3",
+        "test_methods": 7
+      },
+      "tests/S11CycleScoringTest.php": {
+        "sha256": "8fa625a73f46b8f61d3a7fe2c558c0c8847eafe34ccda52935429f826be535fc",
+        "test_methods": 7
+      },
+      "tests/SarApiContractTest.php": {
+        "sha256": "40cf9b1a1a49d7a2623c1320292cb5393108adaf3b9fed85b48c93760f35e8f8",
+        "test_methods": 4
+      },
+      "tests/SarDepthTest.php": {
+        "sha256": "cf2f4264a30d67941e6e368ecd0045770a550396bb3505675e28a755cba313b8",
+        "test_methods": 5
+      },
+      "tests/SarPlaceholderTest.php": {
+        "sha256": "80923bdb2b10b185dc7cbd20885af6a1fef0c801f68511adc5d5c8bea905a2c7",
+        "test_methods": 5
+      },
+      "tests/ScoringServiceTest.php": {
+        "sha256": "e9b480388de0187f4d958c14399fa46cd90287e1bcb87ab6cc955b9e29411127",
+        "test_methods": 10
+      },
+      "tests/ScoringTest.php": {
+        "sha256": "3895d8f9afcbaf5920ea54db9afeb61a7788e3147593f3701ac46f18a5de5821",
+        "test_methods": 4
+      },
+      "tests/SentimentTest.php": {
+        "sha256": "675c8e974143d462da8257716eea294ddbf11ee08fb32d5ffc3ff96cd8943e7e",
+        "test_methods": 6
+      },
+      "tests/UnderstandingTest.php": {
+        "sha256": "6e641173f29ed3ae73ec14a0c8909298777117372ccfcbfcde07b17e428e54e3",
+        "test_methods": 3
+      },
+      "tests/UuidTest.php": {
+        "sha256": "f69845f20c6e25c693036fda534adf1954ca4796aaba4e6915267001e849aff5",
+        "test_methods": 2
+      }
+    },
+    "tqf_mentions_app": {},
+    "tqf_mentions_config_schema_app_total": 26,
+    "tenant_id_migration_files": 59,
+    "migration_files": 92,
+    "app_tenant_call_sites_all_php": 99
+  },
+  "round2": {
+    "head_commit": "ab9c30e",
+    "snapshot_basis": "working tree on the extraction date (HEAD plus uncommitted changes)",
+    "uncommitted_paths": 372,
+    "git": {
+      "commits": 38,
+      "first_commit_date": "2026-06-27",
+      "last_commit_date": "2026-09-08"
+    },
+    "tests": {
+      "tests/Admission/AgencyTest.php": {
+        "sha256": "6e27bb55432b71bae201f3c5f0b7451f680c0a6bd7abd5ddf2b91769ff72eb8b",
+        "test_methods": 2
+      },
+      "tests/Admission/MhesiAuditTest.php": {
+        "sha256": "12c7c5f3fb518dde2a39f21f68efbc20f71fb59ab378a8d7b98fd189ef0183dd",
+        "test_methods": 2
+      },
+      "tests/Admission/MrzAndLoaTest.php": {
+        "sha256": "885c32372b7f5cb16dc39d5d2619379191fa9fb0a235a4f4c250bec338e9f9ed",
+        "test_methods": 3
+      },
+      "tests/Admission/PersonAccessPolicyTest.php": {
+        "sha256": "89687470d6a2e376423b71e0854f978c8f2372f9ebe6661afdc3a64105953ea7",
+        "test_methods": 3
+      },
+      "tests/Admission/PersonApiTest.php": {
+        "sha256": "59fa7a19271a6ebc4b2c7a9141d0686578951c0a05080b0048e553b201852eb2",
+        "test_methods": 14
+      },
+      "tests/Admission/PromptRianEcosystemTest.php": {
+        "sha256": "61940449f515c3f69e956ad63473d4b0653a97d3ad0904284b1fcd6ff4ffed22",
+        "test_methods": 5
+      },
+      "tests/Admission/SecurityShieldTest.php": {
+        "sha256": "cfef107f919046997e664a1d029466f9a32e51b74c4a2dedef7d75043d344afa",
+        "test_methods": 3
+      },
+      "tests/Admission/VisaAttendanceTest.php": {
+        "sha256": "ec1423af89f0f77c6fd3f37127d1ddfc5b1d2904a5a0f36354cf9c5c259a7100",
+        "test_methods": 2
+      },
+      "tests/Pmqa/PmqaScoringTest.php": {
+        "sha256": "b7789c8296b12da9446984e4102819c683c7c03c7753161f0aac46c2ded586dd",
+        "test_methods": 5
+      },
+      "tests/Scoring/ScoringTest.php": {
+        "sha256": "8180db3a3331f881c3a7b8bbafb817ecf36444e5df08cd9da390b930d5992298",
+        "test_methods": 6
+      }
+    },
+    "tqf_mentions_app": {},
+    "tqf_mentions_config_schema_app_total": 46,
+    "tenant_id_migration_files": 89,
+    "migration_files": 146,
+    "app_tenant_call_sites_all_php": 115,
+    "pmqa_commit_ab9c30e_files": [
+      ".github/workflows/tests.yml",
+      "config/pmqa.json",
+      "schema/156_pmqa.sql",
+      "tests/Pmqa/PmqaScoringTest.php"
+    ]
+  },
+  "extracted_on": "2026-09-13"
+}

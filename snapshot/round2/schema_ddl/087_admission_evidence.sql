@@ -1,0 +1,25 @@
+-- DDL extracted from 087_admission_evidence.sql (sha256 7d7c4a22d627fd2854b4f2ebe4974e9eb2fc7ef0174d84d9468e569a63e0a7ae)
+CREATE TABLE IF NOT EXISTS ic_evidence_document (
+    id              CHAR(36)     NOT NULL,
+    tenant_id       CHAR(36)     NOT NULL DEFAULT '00000000-0000-4000-a000-000000000001',
+    person_id       CHAR(36)     NOT NULL COMMENT 'FK ic_person.id (app-level, no DB constraint)',
+    doc_type        ENUM('passport_copy','visa_copy','work_permit','residence_proof',
+                         'contract','transcript','publication_proof','registration_form',
+                         'unclassified') NOT NULL,
+    storage_path    VARCHAR(255) NOT NULL COMMENT 'outside web root, e.g. storage/admission_evidence/<id>.<ext>',
+    file_sha256     CHAR(64)     NOT NULL COMMENT 'integrity + re-ingest dedup',
+    import_job_id   CHAR(36)     NULL COMMENT 'FK import_job.id — which ETL batch produced this row',
+    status          ENUM('pending','verified','rejected') NOT NULL DEFAULT 'pending',
+    rejection_reason VARCHAR(255) NULL COMMENT 'e.g. expired passport, blurry scan',
+    verified_by     CHAR(36)     NULL COMMENT 'users.id',
+    verified_at     DATETIME     NULL,
+    uploaded_by     CHAR(36)     NOT NULL COMMENT 'users.id',
+    uploaded_at     DATETIME     NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    deleted_at      DATETIME     NULL COMMENT 'PDPA retention/erasure — consistent with ic_person/ic_visa_record',
+    created_at      DATETIME     NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id),
+    UNIQUE KEY uq_evidence_sha (tenant_id, file_sha256),
+    KEY idx_evidence_person (person_id),
+    KEY idx_evidence_job (import_job_id),
+    KEY idx_evidence_status (status)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
