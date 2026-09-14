@@ -1,6 +1,8 @@
-"""Recompute the article's counts from the public snapshot and compare with results/metrics.json.
+"""Recompute every count, check and figure datum reported in the articles and compare with results/.
 
-Exit status 0 means every count reproduces exactly.
+Checks results/metrics.json (src/repo_metrics.py), results/extension_check.json
+(src/extension_checker.py) and results/figure_data.json (src/make_figures.py; needs matplotlib).
+Exit status 0 means everything reproduces exactly.
 """
 import json
 import subprocess
@@ -8,17 +10,24 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
+CHECKS = [("metrics.json", "repo_metrics.py"), ("extension_check.json", "extension_checker.py"),
+          ("figure_data.json", "make_figures.py")]
 
 
 def main():
-    committed = json.loads((ROOT / "results" / "metrics.json").read_text(encoding="utf-8"))
-    subprocess.run([sys.executable, str(ROOT / "src" / "repo_metrics.py")], check=True, stdout=subprocess.DEVNULL)
-    fresh = json.loads((ROOT / "results" / "metrics.json").read_text(encoding="utf-8"))
-    (ROOT / "results" / "metrics.json").write_text(json.dumps(committed, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    if fresh != committed:
-        print("NOT reproduced: results/metrics.json differs from a fresh computation")
+    failed = []
+    for result, script in CHECKS:
+        path = ROOT / "results" / result
+        committed = path.read_bytes()
+        subprocess.run([sys.executable, str(ROOT / "src" / script)], check=True, stdout=subprocess.DEVNULL)
+        fresh = path.read_bytes()
+        path.write_bytes(committed)
+        if json.loads(fresh) != json.loads(committed):
+            failed.append(result)
+    if failed:
+        print("NOT reproduced:", ", ".join(failed))
         return 1
-    print("All counts in results/metrics.json reproduced exactly from snapshot/ and data/.")
+    print(f"All {len(CHECKS)} result files reproduced exactly from snapshot/ and data/.")
     return 0
 
 
