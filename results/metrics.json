@@ -16,7 +16,6 @@
         "7": 450
       }
     },
-    "rubric_pmqa": null,
     "process_items_linked_to_results": 5,
     "distinct_results_indicators_linked": 40,
     "create_table_statements": 120,
@@ -50,11 +49,6 @@
         "7": 450
       }
     },
-    "rubric_pmqa": {
-      "categories": 7,
-      "items": 12,
-      "points": 1000
-    },
     "process_items_linked_to_results": 12,
     "distinct_results_indicators_linked": 61,
     "create_table_statements": 260,
@@ -69,13 +63,6 @@
       "commits": 38,
       "first_commit_date": "2026-06-27",
       "last_commit_date": "2026-09-08"
-    },
-    "pmqa_addition_files": [
-      ".github/workflows/tests.yml",
-      "config/pmqa.json",
-      "schema/156_pmqa.sql",
-      "tests/Pmqa/PmqaScoringTest.php"
-    ],
-    "pmqa_addition_touched_scoring_engine": false
+    }
   }
 }

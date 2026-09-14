@@ -259,13 +259,7 @@
     "tqf_mentions_config_schema_app_total": 46,
     "tenant_id_migration_files": 89,
     "migration_files": 146,
-    "app_tenant_call_sites_all_php": 115,
-    "pmqa_commit_ab9c30e_files": [
-      ".github/workflows/tests.yml",
-      "config/pmqa.json",
-      "schema/156_pmqa.sql",
-      "tests/Pmqa/PmqaScoringTest.php"
-    ]
+    "app_tenant_call_sites_all_php": 115
   },
   "extracted_on": "2026-09-13"
 }

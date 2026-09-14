@@ -40,7 +40,6 @@ def main():
         dv = derived[rnd]
         metrics[rnd] = {
             "rubric_edpex": rubric(s / "config" / "edpex.json"),
-            "rubric_pmqa": rubric(s / "config" / "pmqa.json"),
             "process_items_linked_to_results": len(evidence_map),
             "distinct_results_indicators_linked": len(linked),
             "create_table_statements": sum(len(re.findall(r"^\s*CREATE\s+TABLE", f.read_text(encoding="utf-8"), re.I | re.M)) for f in ddl),
@@ -54,8 +53,6 @@ def main():
             "app_tenant_call_sites": dv["app_tenant_call_sites_all_php"],
             "git": dv["git"],
         }
-    metrics["round2"]["pmqa_addition_files"] = derived["round2"]["pmqa_commit_ab9c30e_files"]
-    metrics["round2"]["pmqa_addition_touched_scoring_engine"] = "app/scoring.php" in derived["round2"]["pmqa_commit_ab9c30e_files"]
     (ROOT / "results").mkdir(exist_ok=True)
     (ROOT / "results" / "metrics.json").write_text(json.dumps(metrics, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(json.dumps(metrics, indent=2, ensure_ascii=False))

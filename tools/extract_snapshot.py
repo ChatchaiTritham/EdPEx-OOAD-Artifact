@@ -96,8 +96,6 @@ def main():
             "migration_files": len(list((repo / "schema").glob("*.sql"))),
             "app_tenant_call_sites_all_php": tenant_calls,
         }
-        if name == "round2":
-            derived[name]["pmqa_commit_ab9c30e_files"] = git(repo, "show", "--name-only", "--format=", "ab9c30e").splitlines()
 
     derived["extracted_on"] = datetime.date.today().isoformat()
     (ROOT / "data").mkdir(exist_ok=True)
