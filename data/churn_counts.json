@@ -1,0 +1,8842 @@
+{
+ "layers": [
+  "rubric_configuration",
+  "scoring_engine",
+  "schema",
+  "oo_core",
+  "application_modules",
+  "views_and_clients",
+  "tests",
+  "tooling_and_documents",
+  "other"
+ ],
+ "rounds": {
+  "round1": {
+   "head": "86c5040",
+   "commits": [
+    {
+     "commit": "0d7a4dc",
+     "date": "2026-06-11",
+     "baseline": true,
+     "layers": {
+      "tooling_and_documents": [
+       182,
+       12820
+      ],
+      "other": [
+       14,
+       5045
+      ],
+      "application_modules": [
+       18,
+       3119
+      ],
+      "scoring_engine": [
+       1,
+       116
+      ],
+      "views_and_clients": [
+       105,
+       24768
+      ],
+      "rubric_configuration": [
+       2,
+       564
+      ],
+      "schema": [
+       12,
+       719
+      ],
+      "oo_core": [
+       14,
+       743
+      ],
+      "tests": [
+       5,
+       229
+      ]
+     }
+    },
+    {
+     "commit": "f971fb0",
+     "date": "2026-06-11",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       1
+      ],
+      "application_modules": [
+       2,
+       24
+      ],
+      "views_and_clients": [
+       4,
+       237
+      ],
+      "tooling_and_documents": [
+       1,
+       25
+      ],
+      "tests": [
+       1,
+       31
+      ]
+     }
+    },
+    {
+     "commit": "c9d5aa2",
+     "date": "2026-06-11",
+     "baseline": false,
+     "layers": {
+      "other": [
+       2,
+       3
+      ],
+      "tooling_and_documents": [
+       3,
+       40
+      ],
+      "application_modules": [
+       5,
+       135
+      ],
+      "scoring_engine": [
+       1,
+       5
+      ],
+      "views_and_clients": [
+       9,
+       414
+      ]
+     }
+    },
+    {
+     "commit": "910578d",
+     "date": "2026-06-11",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       1
+      ],
+      "tooling_and_documents": [
+       2,
+       8
+      ],
+      "application_modules": [
+       6,
+       146
+      ],
+      "views_and_clients": [
+       12,
+       420
+      ],
+      "tests": [
+       1,
+       23
+      ]
+     }
+    },
+    {
+     "commit": "126cb23",
+     "date": "2026-06-11",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       37
+      ]
+     }
+    },
+    {
+     "commit": "0ebee53",
+     "date": "2026-06-11",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       1461
+      ]
+     }
+    },
+    {
+     "commit": "acc5c49",
+     "date": "2026-06-14",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       57,
+       1703
+      ]
+     }
+    },
+    {
+     "commit": "f500ac7",
+     "date": "2026-06-14",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       9,
+       142
+      ]
+     }
+    },
+    {
+     "commit": "ebfdd0e",
+     "date": "2026-06-14",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       25
+      ]
+     }
+    },
+    {
+     "commit": "8552c2b",
+     "date": "2026-06-14",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       14,
+       315
+      ]
+     }
+    },
+    {
+     "commit": "b90ffd7",
+     "date": "2026-06-14",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       10,
+       313
+      ],
+      "views_and_clients": [
+       3,
+       49
+      ]
+     }
+    },
+    {
+     "commit": "e7e9464",
+     "date": "2026-06-14",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       4,
+       54
+      ],
+      "application_modules": [
+       1,
+       11
+      ],
+      "scoring_engine": [
+       1,
+       31
+      ],
+      "tests": [
+       1,
+       36
+      ],
+      "views_and_clients": [
+       1,
+       23
+      ]
+     }
+    },
+    {
+     "commit": "e969353",
+     "date": "2026-06-14",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       56
+      ],
+      "scoring_engine": [
+       1,
+       9
+      ],
+      "tests": [
+       1,
+       10
+      ],
+      "views_and_clients": [
+       1,
+       10
+      ]
+     }
+    },
+    {
+     "commit": "c5d2893",
+     "date": "2026-06-14",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       3,
+       338
+      ],
+      "schema": [
+       1,
+       15
+      ],
+      "views_and_clients": [
+       1,
+       175
+      ]
+     }
+    },
+    {
+     "commit": "2fbd521",
+     "date": "2026-06-14",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       91
+      ]
+     }
+    },
+    {
+     "commit": "1e686ed",
+     "date": "2026-06-14",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       19
+      ],
+      "views_and_clients": [
+       2,
+       44
+      ]
+     }
+    },
+    {
+     "commit": "da904b2",
+     "date": "2026-06-14",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       39
+      ],
+      "views_and_clients": [
+       2,
+       45
+      ]
+     }
+    },
+    {
+     "commit": "351c5c3",
+     "date": "2026-06-14",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       179
+      ]
+     }
+    },
+    {
+     "commit": "fd655fd",
+     "date": "2026-06-15",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       3,
+       108
+      ],
+      "views_and_clients": [
+       2,
+       61
+      ]
+     }
+    },
+    {
+     "commit": "f327032",
+     "date": "2026-06-15",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       21
+      ],
+      "tooling_and_documents": [
+       1,
+       74
+      ]
+     }
+    },
+    {
+     "commit": "b21addd",
+     "date": "2026-06-15",
+     "baseline": false,
+     "layers": {
+      "tests": [
+       1,
+       14
+      ]
+     }
+    },
+    {
+     "commit": "261364c",
+     "date": "2026-06-15",
+     "baseline": false,
+     "layers": {
+      "tests": [
+       1,
+       42
+      ],
+      "tooling_and_documents": [
+       1,
+       125
+      ]
+     }
+    },
+    {
+     "commit": "5522033",
+     "date": "2026-06-15",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       16,
+       1032
+      ],
+      "application_modules": [
+       9,
+       725
+      ],
+      "views_and_clients": [
+       34,
+       3149
+      ],
+      "rubric_configuration": [
+       1,
+       564
+      ],
+      "other": [
+       3,
+       109
+      ],
+      "schema": [
+       13,
+       263
+      ],
+      "tests": [
+       10,
+       585
+      ]
+     }
+    },
+    {
+     "commit": "6a46ea1",
+     "date": "2026-06-15",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       2,
+       30
+      ]
+     }
+    },
+    {
+     "commit": "17b6317",
+     "date": "2026-06-15",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       27
+      ]
+     }
+    },
+    {
+     "commit": "602e456",
+     "date": "2026-06-15",
+     "baseline": false,
+     "layers": {
+      "scoring_engine": [
+       1,
+       26
+      ]
+     }
+    },
+    {
+     "commit": "53ae5a0",
+     "date": "2026-06-15",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       9,
+       2227
+      ],
+      "schema": [
+       2,
+       176
+      ]
+     }
+    },
+    {
+     "commit": "22c92a1",
+     "date": "2026-06-15",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       3,
+       58
+      ],
+      "tooling_and_documents": [
+       1,
+       17
+      ]
+     }
+    },
+    {
+     "commit": "2017c2f",
+     "date": "2026-06-15",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       9
+      ]
+     }
+    },
+    {
+     "commit": "314df3e",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       14
+      ],
+      "tooling_and_documents": [
+       1,
+       98
+      ]
+     }
+    },
+    {
+     "commit": "1688af9",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       4
+      ]
+     }
+    },
+    {
+     "commit": "f756dcd",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       7
+      ],
+      "views_and_clients": [
+       2,
+       29
+      ]
+     }
+    },
+    {
+     "commit": "9732c52",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       3,
+       29
+      ]
+     }
+    },
+    {
+     "commit": "b5e3ce9",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       4,
+       166
+      ]
+     }
+    },
+    {
+     "commit": "0738632",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       18
+      ],
+      "scoring_engine": [
+       1,
+       33
+      ]
+     }
+    },
+    {
+     "commit": "a8acf6f",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       94
+      ],
+      "application_modules": [
+       3,
+       81
+      ],
+      "scoring_engine": [
+       1,
+       17
+      ],
+      "views_and_clients": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "commit": "f79bab4",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tests": [
+       1,
+       125
+      ]
+     }
+    },
+    {
+     "commit": "db8888c",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       4,
+       217
+      ]
+     }
+    },
+    {
+     "commit": "6399c0a",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       27,
+       103
+      ]
+     }
+    },
+    {
+     "commit": "cbb8ac0",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       20
+      ],
+      "schema": [
+       1,
+       28
+      ]
+     }
+    },
+    {
+     "commit": "ed24426",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       20
+      ],
+      "application_modules": [
+       1,
+       17
+      ]
+     }
+    },
+    {
+     "commit": "99c5447",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       19
+      ],
+      "application_modules": [
+       1,
+       30
+      ]
+     }
+    },
+    {
+     "commit": "1155bf0",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       4,
+       451
+      ]
+     }
+    },
+    {
+     "commit": "8cbaa7e",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       5,
+       443
+      ],
+      "application_modules": [
+       2,
+       22
+      ],
+      "views_and_clients": [
+       3,
+       101
+      ]
+     }
+    },
+    {
+     "commit": "2cf58ce",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       29
+      ],
+      "schema": [
+       1,
+       90
+      ]
+     }
+    },
+    {
+     "commit": "8d5a1a5",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       20
+      ],
+      "application_modules": [
+       1,
+       31
+      ],
+      "views_and_clients": [
+       1,
+       27
+      ]
+     }
+    },
+    {
+     "commit": "b707356",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       22
+      ],
+      "application_modules": [
+       2,
+       57
+      ],
+      "views_and_clients": [
+       2,
+       40
+      ]
+     }
+    },
+    {
+     "commit": "56ff7a1",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       38
+      ],
+      "application_modules": [
+       1,
+       9
+      ],
+      "other": [
+       2,
+       2457
+      ]
+     }
+    },
+    {
+     "commit": "7ba09ec",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       4,
+       48
+      ],
+      "application_modules": [
+       2,
+       4
+      ],
+      "rubric_configuration": [
+       1,
+       24
+      ],
+      "other": [
+       1,
+       28
+      ]
+     }
+    },
+    {
+     "commit": "b9a7240",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       5,
+       835
+      ]
+     }
+    },
+    {
+     "commit": "9d36a25",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       105
+      ],
+      "application_modules": [
+       1,
+       41
+      ]
+     }
+    },
+    {
+     "commit": "b153aaf",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       79
+      ]
+     }
+    },
+    {
+     "commit": "31995df",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       616
+      ],
+      "application_modules": [
+       2,
+       51
+      ],
+      "views_and_clients": [
+       3,
+       159
+      ]
+     }
+    },
+    {
+     "commit": "568761f",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       12
+      ]
+     }
+    },
+    {
+     "commit": "9e2b0a0",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       66
+      ],
+      "application_modules": [
+       2,
+       89
+      ],
+      "views_and_clients": [
+       3,
+       123
+      ]
+     }
+    },
+    {
+     "commit": "e60b6bf",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       42
+      ],
+      "application_modules": [
+       2,
+       55
+      ],
+      "views_and_clients": [
+       3,
+       117
+      ]
+     }
+    },
+    {
+     "commit": "58d690a",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       40
+      ],
+      "application_modules": [
+       2,
+       52
+      ]
+     }
+    },
+    {
+     "commit": "f24688b",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       16
+      ],
+      "views_and_clients": [
+       3,
+       131
+      ]
+     }
+    },
+    {
+     "commit": "5f50ff7",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       51
+      ],
+      "application_modules": [
+       2,
+       63
+      ]
+     }
+    },
+    {
+     "commit": "6f8f576",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       33
+      ]
+     }
+    },
+    {
+     "commit": "106a141",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       98
+      ],
+      "application_modules": [
+       2,
+       333
+      ]
+     }
+    },
+    {
+     "commit": "b028e4e",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       76
+      ],
+      "application_modules": [
+       2,
+       62
+      ]
+     }
+    },
+    {
+     "commit": "e14dbba",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       18
+      ],
+      "rubric_configuration": [
+       1,
+       12
+      ],
+      "other": [
+       1,
+       23
+      ]
+     }
+    },
+    {
+     "commit": "902714f",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {}
+    },
+    {
+     "commit": "0d53eb6",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       44
+      ],
+      "application_modules": [
+       2,
+       44
+      ]
+     }
+    },
+    {
+     "commit": "a57a270",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       603
+      ],
+      "views_and_clients": [
+       10,
+       1066
+      ]
+     }
+    },
+    {
+     "commit": "579e40d",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       21
+      ]
+     }
+    },
+    {
+     "commit": "7326ebd",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tests": [
+       1,
+       103
+      ]
+     }
+    },
+    {
+     "commit": "3023885",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       4,
+       89
+      ],
+      "application_modules": [
+       2,
+       61
+      ]
+     }
+    },
+    {
+     "commit": "80c7043",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       78
+      ],
+      "application_modules": [
+       2,
+       96
+      ]
+     }
+    },
+    {
+     "commit": "82dc7a1",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tests": [
+       1,
+       56
+      ]
+     }
+    },
+    {
+     "commit": "816c371",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       164
+      ],
+      "application_modules": [
+       2,
+       102
+      ]
+     }
+    },
+    {
+     "commit": "86cfa38",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       4,
+       299
+      ],
+      "application_modules": [
+       3,
+       785
+      ],
+      "views_and_clients": [
+       3,
+       693
+      ],
+      "schema": [
+       1,
+       145
+      ]
+     }
+    },
+    {
+     "commit": "1acb69c",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       25
+      ]
+     }
+    },
+    {
+     "commit": "d764306",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       260
+      ]
+     }
+    },
+    {
+     "commit": "d6ae266",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       43
+      ],
+      "application_modules": [
+       2,
+       52
+      ]
+     }
+    },
+    {
+     "commit": "af438f7",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       222
+      ]
+     }
+    },
+    {
+     "commit": "7bb019b",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       64
+      ],
+      "application_modules": [
+       2,
+       99
+      ]
+     }
+    },
+    {
+     "commit": "981830f",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       1,
+       78
+      ],
+      "tooling_and_documents": [
+       1,
+       48
+      ]
+     }
+    },
+    {
+     "commit": "fac23cd",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       4,
+       79
+      ],
+      "application_modules": [
+       2,
+       23
+      ]
+     }
+    },
+    {
+     "commit": "6516bc5",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       90
+      ]
+     }
+    },
+    {
+     "commit": "0a6a60d",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       43
+      ],
+      "application_modules": [
+       2,
+       49
+      ],
+      "schema": [
+       1,
+       6
+      ]
+     }
+    },
+    {
+     "commit": "c685a52",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       139
+      ]
+     }
+    },
+    {
+     "commit": "4ea029d",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       233
+      ],
+      "application_modules": [
+       1,
+       92
+      ]
+     }
+    },
+    {
+     "commit": "5d9d254",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       89
+      ],
+      "application_modules": [
+       2,
+       123
+      ],
+      "other": [
+       1,
+       5
+      ]
+     }
+    },
+    {
+     "commit": "400ab98",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       12
+      ]
+     }
+    },
+    {
+     "commit": "d85b02d",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       1,
+       149
+      ]
+     }
+    },
+    {
+     "commit": "0d53bc5",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       68
+      ],
+      "application_modules": [
+       1,
+       69
+      ]
+     }
+    },
+    {
+     "commit": "ecc086f",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       1,
+       59
+      ]
+     }
+    },
+    {
+     "commit": "0f60797",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       79
+      ],
+      "application_modules": [
+       2,
+       156
+      ]
+     }
+    },
+    {
+     "commit": "d2b85cc",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       87
+      ],
+      "application_modules": [
+       2,
+       183
+      ]
+     }
+    },
+    {
+     "commit": "f88385e",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       1,
+       82
+      ]
+     }
+    },
+    {
+     "commit": "09e649e",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       117
+      ],
+      "application_modules": [
+       2,
+       244
+      ]
+     }
+    },
+    {
+     "commit": "e037bfc",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       138
+      ],
+      "application_modules": [
+       2,
+       214
+      ]
+     }
+    },
+    {
+     "commit": "0cf7a37",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       4,
+       126
+      ]
+     }
+    },
+    {
+     "commit": "6cca038",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       56
+      ],
+      "application_modules": [
+       2,
+       94
+      ]
+     }
+    },
+    {
+     "commit": "46ecd54",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       126
+      ],
+      "views_and_clients": [
+       2,
+       194
+      ]
+     }
+    },
+    {
+     "commit": "e63e071",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       71
+      ],
+      "application_modules": [
+       1,
+       97
+      ]
+     }
+    },
+    {
+     "commit": "c98d81d",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       10
+      ],
+      "views_and_clients": [
+       7,
+       376
+      ]
+     }
+    },
+    {
+     "commit": "b11cc62",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       44
+      ],
+      "application_modules": [
+       1,
+       10
+      ],
+      "views_and_clients": [
+       1,
+       3
+      ]
+     }
+    },
+    {
+     "commit": "e3e62af",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       10
+      ],
+      "views_and_clients": [
+       2,
+       82
+      ]
+     }
+    },
+    {
+     "commit": "ecf3d44",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       44
+      ],
+      "application_modules": [
+       1,
+       16
+      ]
+     }
+    },
+    {
+     "commit": "497b9e2",
+     "date": "2026-06-16",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       10
+      ],
+      "views_and_clients": [
+       2,
+       77
+      ]
+     }
+    },
+    {
+     "commit": "56d2797",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       34
+      ],
+      "views_and_clients": [
+       6,
+       329
+      ]
+     }
+    },
+    {
+     "commit": "39474a2",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       7,
+       674
+      ],
+      "views_and_clients": [
+       12,
+       732
+      ]
+     }
+    },
+    {
+     "commit": "b4727c0",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       190
+      ]
+     }
+    },
+    {
+     "commit": "c2ab0be",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       28
+      ]
+     }
+    },
+    {
+     "commit": "5d84430",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       440
+      ],
+      "views_and_clients": [
+       2,
+       124
+      ]
+     }
+    },
+    {
+     "commit": "52d90f1",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       4,
+       95
+      ],
+      "views_and_clients": [
+       4,
+       168
+      ]
+     }
+    },
+    {
+     "commit": "f07ea21",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       4,
+       407
+      ],
+      "schema": [
+       1,
+       240
+      ]
+     }
+    },
+    {
+     "commit": "1dba691",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       23
+      ],
+      "application_modules": [
+       4,
+       355
+      ],
+      "schema": [
+       1,
+       9
+      ],
+      "tests": [
+       1,
+       71
+      ]
+     }
+    },
+    {
+     "commit": "f030b3a",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       4,
+       80
+      ]
+     }
+    },
+    {
+     "commit": "cabfd1f",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       2,
+       119
+      ],
+      "tooling_and_documents": [
+       1,
+       91
+      ]
+     }
+    },
+    {
+     "commit": "ea5fe0d",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       4,
+       109
+      ],
+      "tests": [
+       1,
+       10
+      ],
+      "views_and_clients": [
+       3,
+       114
+      ]
+     }
+    },
+    {
+     "commit": "e43ffbd",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       3,
+       92
+      ],
+      "tooling_and_documents": [
+       1,
+       60
+      ],
+      "views_and_clients": [
+       1,
+       29
+      ]
+     }
+    },
+    {
+     "commit": "f750461",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "rubric_configuration": [
+       1,
+       245
+      ],
+      "tooling_and_documents": [
+       2,
+       88
+      ]
+     }
+    },
+    {
+     "commit": "ab614f9",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "rubric_configuration": [
+       1,
+       79
+      ]
+     }
+    },
+    {
+     "commit": "67b4a7c",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       4
+      ]
+     }
+    },
+    {
+     "commit": "34bde28",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "rubric_configuration": [
+       1,
+       11
+      ]
+     }
+    },
+    {
+     "commit": "1e0883b",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       31
+      ]
+     }
+    },
+    {
+     "commit": "92da571",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       38
+      ]
+     }
+    },
+    {
+     "commit": "9f6dcae",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       4,
+       657
+      ],
+      "other": [
+       1,
+       4
+      ],
+      "tooling_and_documents": [
+       1,
+       70
+      ],
+      "schema": [
+       2,
+       109
+      ],
+      "tests": [
+       1,
+       137
+      ],
+      "views_and_clients": [
+       2,
+       419
+      ]
+     }
+    },
+    {
+     "commit": "c7944a5",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       56
+      ],
+      "tests": [
+       1,
+       63
+      ]
+     }
+    },
+    {
+     "commit": "7a158cf",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       18
+      ],
+      "other": [
+       1,
+       2
+      ],
+      "schema": [
+       1,
+       62
+      ]
+     }
+    },
+    {
+     "commit": "694736c",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       67
+      ]
+     }
+    },
+    {
+     "commit": "cfd35f0",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       14
+      ]
+     }
+    },
+    {
+     "commit": "58fd0fe",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       1,
+       18
+      ]
+     }
+    },
+    {
+     "commit": "4af7e19",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       1,
+       10
+      ]
+     }
+    },
+    {
+     "commit": "bde8a61",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       45
+      ]
+     }
+    },
+    {
+     "commit": "6b84ee3",
+     "date": "2026-06-17",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       100
+      ]
+     }
+    },
+    {
+     "commit": "5c48ac0",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       2,
+       85
+      ],
+      "tooling_and_documents": [
+       1,
+       132
+      ],
+      "views_and_clients": [
+       2,
+       116
+      ]
+     }
+    },
+    {
+     "commit": "5dfffbd",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       74
+      ],
+      "application_modules": [
+       1,
+       1
+      ],
+      "views_and_clients": [
+       2,
+       103
+      ]
+     }
+    },
+    {
+     "commit": "b01eab8",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       71
+      ]
+     }
+    },
+    {
+     "commit": "fc26e55",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       1
+      ],
+      "views_and_clients": [
+       1,
+       69
+      ]
+     }
+    },
+    {
+     "commit": "fe6becc",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       91
+      ]
+     }
+    },
+    {
+     "commit": "4e031a6",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       78
+      ]
+     }
+    },
+    {
+     "commit": "7643990",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       7
+      ]
+     }
+    },
+    {
+     "commit": "aca7b0a",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "commit": "ad6232a",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       7
+      ]
+     }
+    },
+    {
+     "commit": "198bc52",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       10
+      ]
+     }
+    },
+    {
+     "commit": "6d004a7",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       10
+      ]
+     }
+    },
+    {
+     "commit": "6e33109",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       102
+      ]
+     }
+    },
+    {
+     "commit": "934405c",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       64
+      ]
+     }
+    },
+    {
+     "commit": "a461720",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       5,
+       386
+      ],
+      "other": [
+       1,
+       230
+      ],
+      "schema": [
+       2,
+       183
+      ],
+      "tests": [
+       1,
+       348
+      ],
+      "views_and_clients": [
+       2,
+       345
+      ]
+     }
+    },
+    {
+     "commit": "3ef929f",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       192
+      ],
+      "application_modules": [
+       2,
+       111
+      ],
+      "tests": [
+       1,
+       305
+      ]
+     }
+    },
+    {
+     "commit": "337c2ca",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       16
+      ],
+      "other": [
+       1,
+       48
+      ],
+      "schema": [
+       2,
+       209
+      ],
+      "tests": [
+       1,
+       10
+      ],
+      "views_and_clients": [
+       1,
+       261
+      ]
+     }
+    },
+    {
+     "commit": "0057aec",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       54
+      ]
+     }
+    },
+    {
+     "commit": "dfdfd4d",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       12
+      ],
+      "views_and_clients": [
+       9,
+       6792
+      ]
+     }
+    },
+    {
+     "commit": "811c538",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       9
+      ]
+     }
+    },
+    {
+     "commit": "2e3263d",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       2,
+       221
+      ],
+      "tests": [
+       1,
+       312
+      ],
+      "views_and_clients": [
+       1,
+       37
+      ]
+     }
+    },
+    {
+     "commit": "3f66ea6",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       1,
+       127
+      ]
+     }
+    },
+    {
+     "commit": "3298339",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       7
+      ],
+      "views_and_clients": [
+       7,
+       14
+      ]
+     }
+    },
+    {
+     "commit": "cbbd55b",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {}
+    },
+    {
+     "commit": "7926dd9",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       10
+      ],
+      "schema": [
+       2,
+       285
+      ],
+      "tests": [
+       1,
+       399
+      ],
+      "views_and_clients": [
+       1,
+       199
+      ]
+     }
+    },
+    {
+     "commit": "dcd83c5",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       1,
+       17
+      ],
+      "tooling_and_documents": [
+       1,
+       118
+      ]
+     }
+    },
+    {
+     "commit": "64a866e",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "rubric_configuration": [
+       1,
+       12
+      ],
+      "schema": [
+       3,
+       104
+      ],
+      "tooling_and_documents": [
+       1,
+       3
+      ]
+     }
+    },
+    {
+     "commit": "4faf405",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       15699
+      ]
+     }
+    },
+    {
+     "commit": "f24ea12",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "commit": "9ea1eb0",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       11
+      ]
+     }
+    },
+    {
+     "commit": "b01b138",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       50
+      ]
+     }
+    },
+    {
+     "commit": "7fce33a",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       3,
+       505
+      ]
+     }
+    },
+    {
+     "commit": "a92b525",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       2,
+       231
+      ],
+      "tests": [
+       1,
+       530
+      ],
+      "views_and_clients": [
+       1,
+       47
+      ]
+     }
+    },
+    {
+     "commit": "1efa3b5",
+     "date": "2026-06-18",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       5,
+       401
+      ]
+     }
+    },
+    {
+     "commit": "d4e4344",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       3,
+       148
+      ]
+     }
+    },
+    {
+     "commit": "0bab3e7",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       1085
+      ]
+     }
+    },
+    {
+     "commit": "32fb7f1",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       1,
+       16
+      ],
+      "tooling_and_documents": [
+       1,
+       7
+      ]
+     }
+    },
+    {
+     "commit": "a12453a",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       6,
+       523
+      ]
+     }
+    },
+    {
+     "commit": "b8efc11",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       37
+      ]
+     }
+    },
+    {
+     "commit": "a179ff9",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       1
+      ],
+      "tooling_and_documents": [
+       1,
+       72
+      ]
+     }
+    },
+    {
+     "commit": "6516b5c",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       138
+      ]
+     }
+    },
+    {
+     "commit": "b33bf5e",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       6,
+       1017
+      ]
+     }
+    },
+    {
+     "commit": "31564b3",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       4,
+       140
+      ]
+     }
+    },
+    {
+     "commit": "4ad62af",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       212
+      ]
+     }
+    },
+    {
+     "commit": "9adada7",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       27
+      ]
+     }
+    },
+    {
+     "commit": "e87fcd7",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       4,
+       53
+      ]
+     }
+    },
+    {
+     "commit": "bdc7ffb",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       5,
+       1297
+      ]
+     }
+    },
+    {
+     "commit": "0191b61",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       79
+      ]
+     }
+    },
+    {
+     "commit": "aa60deb",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       129
+      ]
+     }
+    },
+    {
+     "commit": "264d97f",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {}
+    },
+    {
+     "commit": "9a6f3dc",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       2,
+       176
+      ]
+     }
+    },
+    {
+     "commit": "7a569dc",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       3
+      ],
+      "views_and_clients": [
+       3,
+       138
+      ],
+      "tooling_and_documents": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "commit": "2b26dea",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       8,
+       4116
+      ]
+     }
+    },
+    {
+     "commit": "4327275",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       9
+      ],
+      "schema": [
+       1,
+       18
+      ]
+     }
+    },
+    {
+     "commit": "4c8f8f4",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       5,
+       2113
+      ]
+     }
+    },
+    {
+     "commit": "40b1534",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       360
+      ]
+     }
+    },
+    {
+     "commit": "2e549b2",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       4,
+       181
+      ]
+     }
+    },
+    {
+     "commit": "31f0d36",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       27
+      ]
+     }
+    },
+    {
+     "commit": "3f11d58",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       6,
+       846
+      ],
+      "other": [
+       1,
+       15
+      ]
+     }
+    },
+    {
+     "commit": "b4b4a81",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       8
+      ],
+      "tooling_and_documents": [
+       1,
+       1
+      ],
+      "schema": [
+       4,
+       18
+      ]
+     }
+    },
+    {
+     "commit": "259fb2d",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       95
+      ],
+      "tooling_and_documents": [
+       1,
+       136
+      ],
+      "views_and_clients": [
+       1,
+       4
+      ]
+     }
+    },
+    {
+     "commit": "a5074ff",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       4,
+       124
+      ],
+      "views_and_clients": [
+       16,
+       76
+      ]
+     }
+    },
+    {
+     "commit": "c71c66a",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       7,
+       7129
+      ],
+      "tooling_and_documents": [
+       1,
+       26
+      ]
+     }
+    },
+    {
+     "commit": "4ecc126",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       2,
+       97
+      ],
+      "tooling_and_documents": [
+       1,
+       38
+      ],
+      "views_and_clients": [
+       1,
+       54
+      ]
+     }
+    },
+    {
+     "commit": "373f107",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       1200
+      ],
+      "views_and_clients": [
+       3,
+       212
+      ]
+     }
+    },
+    {
+     "commit": "294f56b",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       148
+      ]
+     }
+    },
+    {
+     "commit": "68ae92d",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       5,
+       116
+      ]
+     }
+    },
+    {
+     "commit": "8c909a6",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       3
+      ]
+     }
+    },
+    {
+     "commit": "6887afa",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       20
+      ],
+      "tests": [
+       1,
+       15
+      ],
+      "views_and_clients": [
+       2,
+       5
+      ]
+     }
+    },
+    {
+     "commit": "0874670",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       1
+      ],
+      "views_and_clients": [
+       2,
+       261
+      ]
+     }
+    },
+    {
+     "commit": "653f4a9",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       4,
+       813
+      ],
+      "other": [
+       1,
+       42
+      ],
+      "tooling_and_documents": [
+       1,
+       104
+      ]
+     }
+    },
+    {
+     "commit": "68dd1b6",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       24,
+       1398
+      ]
+     }
+    },
+    {
+     "commit": "ccd2af4",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       19,
+       1905
+      ]
+     }
+    },
+    {
+     "commit": "fba897e",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       204
+      ]
+     }
+    },
+    {
+     "commit": "feb7b97",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       28,
+       2296
+      ]
+     }
+    },
+    {
+     "commit": "a807d4c",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       1
+      ],
+      "views_and_clients": [
+       1,
+       260
+      ]
+     }
+    },
+    {
+     "commit": "7708c3e",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       11,
+       1305
+      ]
+     }
+    },
+    {
+     "commit": "409f876",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       1
+      ],
+      "views_and_clients": [
+       2,
+       506
+      ]
+     }
+    },
+    {
+     "commit": "413c3f2",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       2,
+       69
+      ]
+     }
+    },
+    {
+     "commit": "6bf5391",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       2,
+       38
+      ]
+     }
+    },
+    {
+     "commit": "cfb691b",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       2
+      ],
+      "views_and_clients": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "commit": "7881a56",
+     "date": "2026-06-19",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       4,
+       812
+      ]
+     }
+    },
+    {
+     "commit": "dd44758",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       131
+      ]
+     }
+    },
+    {
+     "commit": "98383a1",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       319
+      ]
+     }
+    },
+    {
+     "commit": "268a611",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       10
+      ]
+     }
+    },
+    {
+     "commit": "8cf105b",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       291
+      ],
+      "views_and_clients": [
+       6,
+       276
+      ]
+     }
+    },
+    {
+     "commit": "84b0d64",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       170
+      ]
+     }
+    },
+    {
+     "commit": "0c97f44",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       11
+      ]
+     }
+    },
+    {
+     "commit": "10a3aa0",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       380
+      ]
+     }
+    },
+    {
+     "commit": "4932fea",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       5
+      ]
+     }
+    },
+    {
+     "commit": "72141ed",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       16,
+       433
+      ]
+     }
+    },
+    {
+     "commit": "af48fb9",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       10
+      ],
+      "tests": [
+       1,
+       186
+      ]
+     }
+    },
+    {
+     "commit": "878044c",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       166
+      ]
+     }
+    },
+    {
+     "commit": "653f1ef",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       4,
+       128
+      ]
+     }
+    },
+    {
+     "commit": "2c6a43b",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       130
+      ]
+     }
+    },
+    {
+     "commit": "430700d",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       78
+      ]
+     }
+    },
+    {
+     "commit": "0eb938d",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       23,
+       3592
+      ]
+     }
+    },
+    {
+     "commit": "fc64b1d",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       282
+      ]
+     }
+    },
+    {
+     "commit": "c25f7ce",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       196
+      ]
+     }
+    },
+    {
+     "commit": "4050535",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       29
+      ]
+     }
+    },
+    {
+     "commit": "b659481",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       4,
+       291
+      ],
+      "schema": [
+       2,
+       38
+      ]
+     }
+    },
+    {
+     "commit": "c3d4f49",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       2
+      ],
+      "rubric_configuration": [
+       1,
+       2
+      ],
+      "tooling_and_documents": [
+       1,
+       3438
+      ],
+      "other": [
+       1,
+       11
+      ]
+     }
+    },
+    {
+     "commit": "b8ff33f",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       2,
+       146
+      ]
+     }
+    },
+    {
+     "commit": "08e4c1e",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       2,
+       10
+      ]
+     }
+    },
+    {
+     "commit": "4ab46d3",
+     "date": "2026-06-20",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       5
+      ]
+     }
+    },
+    {
+     "commit": "73f93ed",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       2,
+       145
+      ],
+      "schema": [
+       1,
+       26
+      ]
+     }
+    },
+    {
+     "commit": "e596783",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       72
+      ]
+     }
+    },
+    {
+     "commit": "26c2f1a",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "tests": [
+       1,
+       122
+      ]
+     }
+    },
+    {
+     "commit": "bd56d72",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       4
+      ]
+     }
+    },
+    {
+     "commit": "93f6971",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       9,
+       384
+      ]
+     }
+    },
+    {
+     "commit": "d2ab049",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       15,
+       730
+      ]
+     }
+    },
+    {
+     "commit": "57e2592",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       327
+      ],
+      "views_and_clients": [
+       7,
+       479
+      ],
+      "other": [
+       3,
+       78
+      ],
+      "application_modules": [
+       1,
+       13
+      ]
+     }
+    },
+    {
+     "commit": "048b9ed",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       54
+      ],
+      "application_modules": [
+       1,
+       80
+      ],
+      "views_and_clients": [
+       3,
+       85
+      ]
+     }
+    },
+    {
+     "commit": "93524df",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "other": [
+       4,
+       325
+      ],
+      "tooling_and_documents": [
+       1,
+       159
+      ]
+     }
+    },
+    {
+     "commit": "b0b25ed",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       183
+      ],
+      "application_modules": [
+       2,
+       102
+      ],
+      "views_and_clients": [
+       3,
+       159
+      ]
+     }
+    },
+    {
+     "commit": "05da274",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       6,
+       111
+      ]
+     }
+    },
+    {
+     "commit": "1822e46",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       76
+      ],
+      "views_and_clients": [
+       3,
+       176
+      ]
+     }
+    },
+    {
+     "commit": "b3a18a3",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       2,
+       21
+      ],
+      "tooling_and_documents": [
+       1,
+       7
+      ],
+      "views_and_clients": [
+       1,
+       36
+      ]
+     }
+    },
+    {
+     "commit": "d19c39f",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       10
+      ],
+      "views_and_clients": [
+       2,
+       28
+      ]
+     }
+    },
+    {
+     "commit": "9e45bb8",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       12
+      ],
+      "views_and_clients": [
+       3,
+       134
+      ]
+     }
+    },
+    {
+     "commit": "1e7bfec",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       42
+      ],
+      "views_and_clients": [
+       7,
+       278
+      ]
+     }
+    },
+    {
+     "commit": "4ec97a7",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       76
+      ],
+      "views_and_clients": [
+       1,
+       6
+      ]
+     }
+    },
+    {
+     "commit": "474ec5f",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       3,
+       215
+      ]
+     }
+    },
+    {
+     "commit": "6a4435f",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       180
+      ]
+     }
+    },
+    {
+     "commit": "b879339",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       6
+      ]
+     }
+    },
+    {
+     "commit": "93ee814",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       4,
+       269
+      ],
+      "application_modules": [
+       1,
+       1
+      ]
+     }
+    },
+    {
+     "commit": "6fc75cb",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       34
+      ]
+     }
+    },
+    {
+     "commit": "396b71c",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       44
+      ],
+      "views_and_clients": [
+       2,
+       322
+      ]
+     }
+    },
+    {
+     "commit": "a962e3c",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       14
+      ],
+      "views_and_clients": [
+       5,
+       228
+      ]
+     }
+    },
+    {
+     "commit": "327ebe7",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       3,
+       13
+      ]
+     }
+    },
+    {
+     "commit": "1cfb0b6",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       13
+      ],
+      "views_and_clients": [
+       9,
+       15
+      ]
+     }
+    },
+    {
+     "commit": "d9ef208",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       47
+      ]
+     }
+    },
+    {
+     "commit": "b213c94",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       2,
+       303
+      ],
+      "views_and_clients": [
+       3,
+       656
+      ]
+     }
+    },
+    {
+     "commit": "6615cf4",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       274
+      ],
+      "schema": [
+       1,
+       11
+      ],
+      "tooling_and_documents": [
+       2,
+       181
+      ]
+     }
+    },
+    {
+     "commit": "362f155",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       38
+      ]
+     }
+    },
+    {
+     "commit": "b5205fb",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       25
+      ]
+     }
+    },
+    {
+     "commit": "f197882",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       139
+      ],
+      "application_modules": [
+       1,
+       100
+      ],
+      "schema": [
+       1,
+       25
+      ]
+     }
+    },
+    {
+     "commit": "e1fd64e",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       173
+      ],
+      "application_modules": [
+       1,
+       151
+      ],
+      "other": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "commit": "3a9f4a6",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       39
+      ]
+     }
+    },
+    {
+     "commit": "be4e8e5",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       129
+      ]
+     }
+    },
+    {
+     "commit": "c745554",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       106
+      ],
+      "schema": [
+       1,
+       26
+      ],
+      "tooling_and_documents": [
+       1,
+       39
+      ],
+      "views_and_clients": [
+       1,
+       33
+      ]
+     }
+    },
+    {
+     "commit": "c5409e1",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       48
+      ]
+     }
+    },
+    {
+     "commit": "b63fd6f",
+     "date": "2026-06-21",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       67
+      ],
+      "other": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "commit": "b113750",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       83
+      ]
+     }
+    },
+    {
+     "commit": "d941c57",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       63
+      ]
+     }
+    },
+    {
+     "commit": "26488d1",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       10
+      ]
+     }
+    },
+    {
+     "commit": "bce0fba",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tests": [
+       1,
+       43
+      ]
+     }
+    },
+    {
+     "commit": "92f8759",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       10
+      ]
+     }
+    },
+    {
+     "commit": "e608eb4",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       76
+      ]
+     }
+    },
+    {
+     "commit": "acedc10",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "commit": "c4af5a4",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "commit": "d2d420a",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       5,
+       451
+      ],
+      "other": [
+       2,
+       72
+      ],
+      "application_modules": [
+       1,
+       2
+      ],
+      "tests": [
+       1,
+       50
+      ],
+      "views_and_clients": [
+       1,
+       113
+      ]
+     }
+    },
+    {
+     "commit": "4ccd14a",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       63
+      ],
+      "views_and_clients": [
+       1,
+       9
+      ]
+     }
+    },
+    {
+     "commit": "1d0df57",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       9
+      ],
+      "views_and_clients": [
+       1,
+       29
+      ]
+     }
+    },
+    {
+     "commit": "fd5f3ba",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       43
+      ],
+      "application_modules": [
+       2,
+       114
+      ],
+      "views_and_clients": [
+       1,
+       78
+      ]
+     }
+    },
+    {
+     "commit": "5b9ce81",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       77
+      ]
+     }
+    },
+    {
+     "commit": "8b73e0e",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "commit": "a6d8830",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "commit": "24ff546",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       186
+      ]
+     }
+    },
+    {
+     "commit": "cf415fd",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       3,
+       11
+      ],
+      "tooling_and_documents": [
+       1,
+       7
+      ]
+     }
+    },
+    {
+     "commit": "48ae755",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       22
+      ]
+     }
+    },
+    {
+     "commit": "137af18",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       45
+      ]
+     }
+    },
+    {
+     "commit": "b2a229e",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       37
+      ]
+     }
+    },
+    {
+     "commit": "3ff6398",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       32
+      ],
+      "other": [
+       1,
+       1
+      ]
+     }
+    },
+    {
+     "commit": "1f63d1a",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       75
+      ],
+      "schema": [
+       1,
+       26
+      ]
+     }
+    },
+    {
+     "commit": "f42983d",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       42
+      ]
+     }
+    },
+    {
+     "commit": "196b810",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       12
+      ]
+     }
+    },
+    {
+     "commit": "7f0e83d",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       1
+      ]
+     }
+    },
+    {
+     "commit": "f657753",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       139
+      ]
+     }
+    },
+    {
+     "commit": "6bc8a68",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       4,
+       70
+      ],
+      "tooling_and_documents": [
+       1,
+       14
+      ]
+     }
+    },
+    {
+     "commit": "dd0e46d",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       77
+      ]
+     }
+    },
+    {
+     "commit": "1c37f9e",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       5,
+       242
+      ]
+     }
+    },
+    {
+     "commit": "86c44b9",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       86
+      ]
+     }
+    },
+    {
+     "commit": "9e6806d",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tests": [
+       1,
+       45
+      ]
+     }
+    },
+    {
+     "commit": "83149df",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       2
+      ],
+      "tooling_and_documents": [
+       1,
+       81
+      ]
+     }
+    },
+    {
+     "commit": "3dfc33b",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       110
+      ]
+     }
+    },
+    {
+     "commit": "ad41e39",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       4,
+       105
+      ]
+     }
+    },
+    {
+     "commit": "c3e7823",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       43
+      ]
+     }
+    },
+    {
+     "commit": "1d0a6da",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       53
+      ],
+      "views_and_clients": [
+       2,
+       794
+      ]
+     }
+    },
+    {
+     "commit": "247d5dd",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       5,
+       223
+      ]
+     }
+    },
+    {
+     "commit": "c52be1b",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       26
+      ],
+      "views_and_clients": [
+       1,
+       19
+      ]
+     }
+    },
+    {
+     "commit": "be2895f",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       5,
+       318
+      ]
+     }
+    },
+    {
+     "commit": "369b8a9",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       78
+      ]
+     }
+    },
+    {
+     "commit": "1c8cb17",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       102
+      ]
+     }
+    },
+    {
+     "commit": "04100e5",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tests": [
+       1,
+       151
+      ]
+     }
+    },
+    {
+     "commit": "ae7cf86",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       82
+      ]
+     }
+    },
+    {
+     "commit": "ed296fa",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       65
+      ],
+      "tests": [
+       3,
+       150
+      ]
+     }
+    },
+    {
+     "commit": "d9cc788",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       3,
+       131
+      ]
+     }
+    },
+    {
+     "commit": "6c27e59",
+     "date": "2026-06-22",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       9
+      ],
+      "tests": [
+       1,
+       115
+      ]
+     }
+    },
+    {
+     "commit": "6bb9391",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       16
+      ],
+      "tests": [
+       2,
+       202
+      ]
+     }
+    },
+    {
+     "commit": "2588d40",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       70
+      ]
+     }
+    },
+    {
+     "commit": "fc23953",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       16
+      ],
+      "tests": [
+       2,
+       50
+      ]
+     }
+    },
+    {
+     "commit": "e4b80e1",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       225
+      ]
+     }
+    },
+    {
+     "commit": "99b0c22",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       64
+      ],
+      "views_and_clients": [
+       7,
+       283
+      ],
+      "tests": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "commit": "d44c688",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       176
+      ]
+     }
+    },
+    {
+     "commit": "298526b",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       34
+      ]
+     }
+    },
+    {
+     "commit": "933dfd1",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       139
+      ]
+     }
+    },
+    {
+     "commit": "0f9e2d4",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       2,
+       27
+      ],
+      "views_and_clients": [
+       4,
+       61
+      ],
+      "tooling_and_documents": [
+       1,
+       11
+      ]
+     }
+    },
+    {
+     "commit": "38a7798",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       129
+      ]
+     }
+    },
+    {
+     "commit": "edbfccd",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       122
+      ]
+     }
+    },
+    {
+     "commit": "d62a43c",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       118
+      ]
+     }
+    },
+    {
+     "commit": "b47b589",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       22,
+       8439
+      ]
+     }
+    },
+    {
+     "commit": "c424255",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       5
+      ]
+     }
+    },
+    {
+     "commit": "c7d8ea6",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tests": [
+       1,
+       69
+      ],
+      "tooling_and_documents": [
+       4,
+       152
+      ]
+     }
+    },
+    {
+     "commit": "8a4d18b",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "other": [
+       2,
+       1465
+      ]
+     }
+    },
+    {
+     "commit": "dbfaf38",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       48
+      ]
+     }
+    },
+    {
+     "commit": "25d17b8",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       42
+      ]
+     }
+    },
+    {
+     "commit": "ff82604",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       143
+      ]
+     }
+    },
+    {
+     "commit": "b27b1f0",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       3,
+       81
+      ],
+      "views_and_clients": [
+       7,
+       174
+      ],
+      "tooling_and_documents": [
+       1,
+       8
+      ]
+     }
+    },
+    {
+     "commit": "3475634",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       112
+      ]
+     }
+    },
+    {
+     "commit": "1780d4a",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       4
+      ]
+     }
+    },
+    {
+     "commit": "ee3c9fd",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       279
+      ]
+     }
+    },
+    {
+     "commit": "486d7ab",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       44
+      ]
+     }
+    },
+    {
+     "commit": "d872bbf",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       5,
+       202
+      ]
+     }
+    },
+    {
+     "commit": "81a1f8a",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       125
+      ]
+     }
+    },
+    {
+     "commit": "53ccbcc",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tests": [
+       3,
+       104
+      ],
+      "tooling_and_documents": [
+       1,
+       14
+      ]
+     }
+    },
+    {
+     "commit": "c1f5146",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tests": [
+       1,
+       98
+      ]
+     }
+    },
+    {
+     "commit": "38ad943",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tests": [
+       1,
+       53
+      ]
+     }
+    },
+    {
+     "commit": "c4749d4",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tests": [
+       1,
+       58
+      ]
+     }
+    },
+    {
+     "commit": "ee9fad7",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tests": [
+       1,
+       70
+      ]
+     }
+    },
+    {
+     "commit": "2bd824e",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       4,
+       105
+      ]
+     }
+    },
+    {
+     "commit": "32dba72",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tests": [
+       1,
+       66
+      ]
+     }
+    },
+    {
+     "commit": "0b58695",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       17
+      ]
+     }
+    },
+    {
+     "commit": "feb6c9c",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       6,
+       225
+      ]
+     }
+    },
+    {
+     "commit": "62f64b6",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       17
+      ]
+     }
+    },
+    {
+     "commit": "f98759c",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       4,
+       138
+      ]
+     }
+    },
+    {
+     "commit": "a4dc8e3",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tests": [
+       1,
+       71
+      ]
+     }
+    },
+    {
+     "commit": "440667f",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       161
+      ]
+     }
+    },
+    {
+     "commit": "20e372e",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       177
+      ]
+     }
+    },
+    {
+     "commit": "7067635",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       84
+      ]
+     }
+    },
+    {
+     "commit": "7afa659",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       5,
+       185
+      ]
+     }
+    },
+    {
+     "commit": "b5fae43",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       15
+      ]
+     }
+    },
+    {
+     "commit": "1677fdc",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       6,
+       232
+      ]
+     }
+    },
+    {
+     "commit": "9fd1ef8",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       105
+      ]
+     }
+    },
+    {
+     "commit": "83ce31d",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       106
+      ]
+     }
+    },
+    {
+     "commit": "7e20b10",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       13
+      ]
+     }
+    },
+    {
+     "commit": "f15dd7c",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       49
+      ]
+     }
+    },
+    {
+     "commit": "3c238bc",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       6,
+       253
+      ]
+     }
+    },
+    {
+     "commit": "e435740",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       29
+      ],
+      "tests": [
+       1,
+       94
+      ]
+     }
+    },
+    {
+     "commit": "9620eb1",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       8,
+       291
+      ],
+      "tooling_and_documents": [
+       3,
+       88
+      ]
+     }
+    },
+    {
+     "commit": "c77c7bf",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       111
+      ]
+     }
+    },
+    {
+     "commit": "8c79b69",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       4
+      ]
+     }
+    },
+    {
+     "commit": "74f233a",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       4,
+       60
+      ]
+     }
+    },
+    {
+     "commit": "85dc8fd",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       89
+      ]
+     }
+    },
+    {
+     "commit": "dc5eb78",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       236
+      ]
+     }
+    },
+    {
+     "commit": "6896e73",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       1635
+      ]
+     }
+    },
+    {
+     "commit": "6b4b067",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       8,
+       79
+      ]
+     }
+    },
+    {
+     "commit": "3da757b",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       8,
+       131
+      ]
+     }
+    },
+    {
+     "commit": "78f61ab",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       12,
+       193
+      ]
+     }
+    },
+    {
+     "commit": "86e667c",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       10,
+       161
+      ]
+     }
+    },
+    {
+     "commit": "76a01e5",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       14,
+       116
+      ]
+     }
+    },
+    {
+     "commit": "c65a1ad",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       9,
+       122
+      ]
+     }
+    },
+    {
+     "commit": "c401481",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       33,
+       510
+      ]
+     }
+    },
+    {
+     "commit": "cd158d8",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       3,
+       706
+      ]
+     }
+    },
+    {
+     "commit": "1233973",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       3,
+       226
+      ]
+     }
+    },
+    {
+     "commit": "37feaa0",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       72
+      ]
+     }
+    },
+    {
+     "commit": "25049e7",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       74
+      ]
+     }
+    },
+    {
+     "commit": "a25f2f0",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       94
+      ]
+     }
+    },
+    {
+     "commit": "750a7a7",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       4,
+       27
+      ]
+     }
+    },
+    {
+     "commit": "1e98286",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       9
+      ]
+     }
+    },
+    {
+     "commit": "698d3f9",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       14
+      ],
+      "tooling_and_documents": [
+       1,
+       7
+      ],
+      "views_and_clients": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "commit": "2239a02",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       235
+      ]
+     }
+    },
+    {
+     "commit": "5087f8d",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       2,
+       61
+      ],
+      "schema": [
+       1,
+       13
+      ]
+     }
+    },
+    {
+     "commit": "d1e7b3d",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "tests": [
+       3,
+       149
+      ]
+     }
+    },
+    {
+     "commit": "6e6c622",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       33
+      ]
+     }
+    },
+    {
+     "commit": "e88eed3",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       61
+      ]
+     }
+    },
+    {
+     "commit": "dbf1710",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       2,
+       14
+      ]
+     }
+    },
+    {
+     "commit": "06aa454",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       32
+      ]
+     }
+    },
+    {
+     "commit": "6aa9bd0",
+     "date": "2026-06-23",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       1,
+       0
+      ]
+     }
+    },
+    {
+     "commit": "d6aeccb",
+     "date": "2026-06-24",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       344
+      ],
+      "views_and_clients": [
+       1,
+       87
+      ]
+     }
+    },
+    {
+     "commit": "f304282",
+     "date": "2026-06-24",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       90
+      ]
+     }
+    },
+    {
+     "commit": "612dd22",
+     "date": "2026-06-24",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       7,
+       52
+      ]
+     }
+    },
+    {
+     "commit": "406f9b7",
+     "date": "2026-06-24",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       134
+      ],
+      "views_and_clients": [
+       6,
+       38
+      ]
+     }
+    },
+    {
+     "commit": "86577fc",
+     "date": "2026-06-24",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       6,
+       40
+      ]
+     }
+    },
+    {
+     "commit": "e2c6b4b",
+     "date": "2026-06-24",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       106
+      ],
+      "views_and_clients": [
+       5,
+       31
+      ]
+     }
+    },
+    {
+     "commit": "8c5c602",
+     "date": "2026-06-24",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       64
+      ],
+      "views_and_clients": [
+       5,
+       31
+      ]
+     }
+    },
+    {
+     "commit": "57d7378",
+     "date": "2026-06-24",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       8,
+       108
+      ]
+     }
+    },
+    {
+     "commit": "c82cbcc",
+     "date": "2026-06-24",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       80
+      ],
+      "views_and_clients": [
+       6,
+       27
+      ]
+     }
+    },
+    {
+     "commit": "5e4bddd",
+     "date": "2026-06-24",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       8,
+       105
+      ]
+     }
+    },
+    {
+     "commit": "cbdc35e",
+     "date": "2026-06-24",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       68
+      ],
+      "views_and_clients": [
+       3,
+       14
+      ]
+     }
+    },
+    {
+     "commit": "4f03050",
+     "date": "2026-06-24",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       4,
+       28
+      ]
+     }
+    },
+    {
+     "commit": "4e26b67",
+     "date": "2026-06-24",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       38
+      ]
+     }
+    },
+    {
+     "commit": "4d9da13",
+     "date": "2026-06-24",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       98
+      ]
+     }
+    },
+    {
+     "commit": "1bf2d35",
+     "date": "2026-06-24",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       16
+      ]
+     }
+    },
+    {
+     "commit": "cdc2f0a",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       3,
+       99
+      ]
+     }
+    },
+    {
+     "commit": "b80a31e",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       3,
+       78
+      ]
+     }
+    },
+    {
+     "commit": "9e6ea43",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       20
+      ]
+     }
+    },
+    {
+     "commit": "49d55e3",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       39
+      ],
+      "views_and_clients": [
+       1,
+       80
+      ]
+     }
+    },
+    {
+     "commit": "62a216e",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       188
+      ]
+     }
+    },
+    {
+     "commit": "bffdf68",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       8
+      ]
+     }
+    },
+    {
+     "commit": "fe6bfb0",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       154
+      ],
+      "views_and_clients": [
+       1,
+       19
+      ]
+     }
+    },
+    {
+     "commit": "33d6994",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       171
+      ]
+     }
+    },
+    {
+     "commit": "ac8a775",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       5
+      ],
+      "views_and_clients": [
+       1,
+       222
+      ]
+     }
+    },
+    {
+     "commit": "623214c",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       52
+      ],
+      "views_and_clients": [
+       1,
+       33
+      ]
+     }
+    },
+    {
+     "commit": "edb61ac",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       325
+      ]
+     }
+    },
+    {
+     "commit": "10bbf72",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       146
+      ]
+     }
+    },
+    {
+     "commit": "7e89050",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       17
+      ]
+     }
+    },
+    {
+     "commit": "bc148be",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       241
+      ]
+     }
+    },
+    {
+     "commit": "07a1ab7",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       12
+      ],
+      "views_and_clients": [
+       1,
+       8
+      ]
+     }
+    },
+    {
+     "commit": "4ee7a51",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       60
+      ]
+     }
+    },
+    {
+     "commit": "21cd4ea",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       5,
+       553
+      ]
+     }
+    },
+    {
+     "commit": "9c22b93",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       21
+      ]
+     }
+    },
+    {
+     "commit": "416f39f",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       128
+      ]
+     }
+    },
+    {
+     "commit": "227a2ba",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       60
+      ]
+     }
+    },
+    {
+     "commit": "bcd627f",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       16
+      ],
+      "views_and_clients": [
+       3,
+       327
+      ]
+     }
+    },
+    {
+     "commit": "1224bfc",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       28
+      ]
+     }
+    },
+    {
+     "commit": "37224c9",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       132
+      ]
+     }
+    },
+    {
+     "commit": "5013256",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       58
+      ]
+     }
+    },
+    {
+     "commit": "6964e60",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       43
+      ]
+     }
+    },
+    {
+     "commit": "3e1a9b8",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       36
+      ]
+     }
+    },
+    {
+     "commit": "6444b67",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       23
+      ]
+     }
+    },
+    {
+     "commit": "404fa40",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       31
+      ]
+     }
+    },
+    {
+     "commit": "bdc2fe9",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       14
+      ]
+     }
+    },
+    {
+     "commit": "1a4a118",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       12
+      ],
+      "views_and_clients": [
+       1,
+       204
+      ]
+     }
+    },
+    {
+     "commit": "99dbc3d",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       12
+      ]
+     }
+    },
+    {
+     "commit": "0e309d4",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       61
+      ]
+     }
+    },
+    {
+     "commit": "a909795",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       14
+      ]
+     }
+    },
+    {
+     "commit": "c0ef1fa",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       43
+      ],
+      "views_and_clients": [
+       1,
+       73
+      ]
+     }
+    },
+    {
+     "commit": "3ae8c2d",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       16
+      ],
+      "views_and_clients": [
+       1,
+       60
+      ]
+     }
+    },
+    {
+     "commit": "e08897a",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       13
+      ]
+     }
+    },
+    {
+     "commit": "67d44c4",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       16
+      ]
+     }
+    },
+    {
+     "commit": "9be328e",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       287
+      ]
+     }
+    },
+    {
+     "commit": "fe91b98",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       9
+      ]
+     }
+    },
+    {
+     "commit": "b416490",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       14
+      ]
+     }
+    },
+    {
+     "commit": "089e759",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       33
+      ]
+     }
+    },
+    {
+     "commit": "a0caee6",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       126
+      ],
+      "views_and_clients": [
+       1,
+       63
+      ]
+     }
+    },
+    {
+     "commit": "afa1066",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       19
+      ]
+     }
+    },
+    {
+     "commit": "4902fc7",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       10
+      ],
+      "views_and_clients": [
+       1,
+       5
+      ]
+     }
+    },
+    {
+     "commit": "bf11846",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       14
+      ]
+     }
+    },
+    {
+     "commit": "f4de780",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       5,
+       173
+      ]
+     }
+    },
+    {
+     "commit": "0dfc5f9",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       39
+      ]
+     }
+    },
+    {
+     "commit": "27c0f1a",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       16
+      ],
+      "views_and_clients": [
+       1,
+       32
+      ]
+     }
+    },
+    {
+     "commit": "8f20d78",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       34
+      ]
+     }
+    },
+    {
+     "commit": "ea6c095",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       29
+      ]
+     }
+    },
+    {
+     "commit": "e363cae",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       19
+      ]
+     }
+    },
+    {
+     "commit": "b52a144",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       28
+      ]
+     }
+    },
+    {
+     "commit": "4443ec6",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       12
+      ]
+     }
+    },
+    {
+     "commit": "f9f82ea",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       4
+      ]
+     }
+    },
+    {
+     "commit": "fa24a28",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       13
+      ]
+     }
+    },
+    {
+     "commit": "bf1318d",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       34
+      ]
+     }
+    },
+    {
+     "commit": "72ace9f",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       15
+      ]
+     }
+    },
+    {
+     "commit": "a3c7394",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       8
+      ]
+     }
+    },
+    {
+     "commit": "b02c66e",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       26
+      ]
+     }
+    },
+    {
+     "commit": "cf7dff6",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       56
+      ]
+     }
+    },
+    {
+     "commit": "3da0f1e",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       2
+      ],
+      "views_and_clients": [
+       1,
+       26
+      ]
+     }
+    },
+    {
+     "commit": "adabf22",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       11
+      ]
+     }
+    },
+    {
+     "commit": "87fad34",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       5,
+       120
+      ]
+     }
+    },
+    {
+     "commit": "fd4a2c0",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       8
+      ]
+     }
+    },
+    {
+     "commit": "c05fb50",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       16
+      ]
+     }
+    },
+    {
+     "commit": "c034bd1",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       126
+      ],
+      "views_and_clients": [
+       1,
+       62
+      ]
+     }
+    },
+    {
+     "commit": "5d4065b",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       28
+      ]
+     }
+    },
+    {
+     "commit": "b191b43",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       16
+      ],
+      "views_and_clients": [
+       1,
+       30
+      ]
+     }
+    },
+    {
+     "commit": "6c84cd5",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       78
+      ]
+     }
+    },
+    {
+     "commit": "dba7f2b",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       12
+      ],
+      "views_and_clients": [
+       1,
+       45
+      ]
+     }
+    },
+    {
+     "commit": "3157e27",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       31
+      ]
+     }
+    },
+    {
+     "commit": "fb69bab",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       5,
+       41
+      ]
+     }
+    },
+    {
+     "commit": "fff7840",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       58
+      ]
+     }
+    },
+    {
+     "commit": "4f53be4",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       3,
+       6
+      ]
+     }
+    },
+    {
+     "commit": "12139a3",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       50
+      ]
+     }
+    },
+    {
+     "commit": "a8e8b9b",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       81
+      ],
+      "views_and_clients": [
+       1,
+       42
+      ]
+     }
+    },
+    {
+     "commit": "6199880",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       19
+      ]
+     }
+    },
+    {
+     "commit": "75273c7",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       4
+      ]
+     }
+    },
+    {
+     "commit": "c999a26",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       7
+      ]
+     }
+    },
+    {
+     "commit": "20c49b2",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       115
+      ],
+      "views_and_clients": [
+       1,
+       144
+      ],
+      "other": [
+       1,
+       33
+      ],
+      "application_modules": [
+       14,
+       971
+      ],
+      "schema": [
+       3,
+       128
+      ]
+     }
+    },
+    {
+     "commit": "f4f3e4f",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       20
+      ],
+      "tooling_and_documents": [
+       3,
+       151
+      ]
+     }
+    },
+    {
+     "commit": "99a1b90",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       1,
+       18
+      ]
+     }
+    },
+    {
+     "commit": "9c98409",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       117
+      ]
+     }
+    },
+    {
+     "commit": "3f6188c",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       53
+      ]
+     }
+    },
+    {
+     "commit": "430da4a",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       165
+      ],
+      "views_and_clients": [
+       1,
+       7
+      ]
+     }
+    },
+    {
+     "commit": "64092d8",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       87
+      ]
+     }
+    },
+    {
+     "commit": "712e458",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       6
+      ]
+     }
+    },
+    {
+     "commit": "aa26b37",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       45
+      ]
+     }
+    },
+    {
+     "commit": "a991d68",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       46
+      ]
+     }
+    },
+    {
+     "commit": "d550954",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       127
+      ]
+     }
+    },
+    {
+     "commit": "5b968c0",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       3,
+       61
+      ],
+      "other": [
+       2,
+       96
+      ],
+      "schema": [
+       1,
+       15
+      ],
+      "views_and_clients": [
+       6,
+       125
+      ]
+     }
+    },
+    {
+     "commit": "fedb4c7",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       101
+      ]
+     }
+    },
+    {
+     "commit": "fe05964",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       71
+      ],
+      "views_and_clients": [
+       7,
+       16
+      ]
+     }
+    },
+    {
+     "commit": "65b9399",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       40
+      ],
+      "other": [
+       1,
+       26
+      ]
+     }
+    },
+    {
+     "commit": "ef7a980",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       80
+      ],
+      "views_and_clients": [
+       1,
+       19
+      ],
+      "other": [
+       3,
+       399
+      ],
+      "application_modules": [
+       4,
+       410
+      ]
+     }
+    },
+    {
+     "commit": "20b6517",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       4
+      ],
+      "views_and_clients": [
+       1,
+       14
+      ]
+     }
+    },
+    {
+     "commit": "42155eb",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       10
+      ],
+      "application_modules": [
+       2,
+       26
+      ]
+     }
+    },
+    {
+     "commit": "11e528c",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "other": [
+       2,
+       15
+      ],
+      "application_modules": [
+       3,
+       69
+      ],
+      "tooling_and_documents": [
+       1,
+       69
+      ],
+      "views_and_clients": [
+       1,
+       5
+      ]
+     }
+    },
+    {
+     "commit": "4cb3bae",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       6,
+       19
+      ],
+      "tooling_and_documents": [
+       1,
+       5
+      ]
+     }
+    },
+    {
+     "commit": "54ab5c4",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       39
+      ]
+     }
+    },
+    {
+     "commit": "16796dd",
+     "date": "2026-06-25",
+     "baseline": false,
+     "layers": {
+      "other": [
+       2,
+       11
+      ],
+      "tooling_and_documents": [
+       1,
+       50
+      ]
+     }
+    },
+    {
+     "commit": "e71e376",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       2,
+       73
+      ],
+      "other": [
+       1,
+       4
+      ],
+      "schema": [
+       1,
+       13
+      ],
+      "tooling_and_documents": [
+       2,
+       29
+      ]
+     }
+    },
+    {
+     "commit": "1b3c995",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       7
+      ],
+      "application_modules": [
+       4,
+       204
+      ]
+     }
+    },
+    {
+     "commit": "59ffcb7",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       12
+      ],
+      "views_and_clients": [
+       1,
+       35
+      ]
+     }
+    },
+    {
+     "commit": "5165dbb",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       97
+      ]
+     }
+    },
+    {
+     "commit": "2790422",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       6
+      ],
+      "other": [
+       2,
+       19
+      ],
+      "application_modules": [
+       2,
+       127
+      ],
+      "schema": [
+       1,
+       21
+      ],
+      "tooling_and_documents": [
+       1,
+       17
+      ]
+     }
+    },
+    {
+     "commit": "f9922ce",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       2,
+       25
+      ]
+     }
+    },
+    {
+     "commit": "93cd2b4",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       16
+      ],
+      "views_and_clients": [
+       1,
+       26
+      ]
+     }
+    },
+    {
+     "commit": "bed3280",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       6
+      ],
+      "views_and_clients": [
+       3,
+       10
+      ]
+     }
+    },
+    {
+     "commit": "8d47a6a",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       4
+      ],
+      "views_and_clients": [
+       4,
+       23
+      ]
+     }
+    },
+    {
+     "commit": "7d2cb10",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       6
+      ],
+      "application_modules": [
+       2,
+       58
+      ],
+      "schema": [
+       1,
+       6
+      ]
+     }
+    },
+    {
+     "commit": "4bb1665",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       14
+      ],
+      "application_modules": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "commit": "e8d9294",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       32
+      ],
+      "application_modules": [
+       1,
+       27
+      ]
+     }
+    },
+    {
+     "commit": "fc8df55",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       102
+      ],
+      "application_modules": [
+       1,
+       58
+      ],
+      "views_and_clients": [
+       2,
+       232
+      ]
+     }
+    },
+    {
+     "commit": "b770306",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       3,
+       73
+      ]
+     }
+    },
+    {
+     "commit": "2a67eb3",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       15
+      ],
+      "views_and_clients": [
+       38,
+       640
+      ]
+     }
+    },
+    {
+     "commit": "0aa6db7",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       39
+      ]
+     }
+    },
+    {
+     "commit": "6e1ac0b",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       427
+      ]
+     }
+    },
+    {
+     "commit": "912a520",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       35
+      ],
+      "other": [
+       1,
+       27
+      ]
+     }
+    },
+    {
+     "commit": "921e454",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       18
+      ],
+      "views_and_clients": [
+       28,
+       133
+      ]
+     }
+    },
+    {
+     "commit": "e3f346b",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       39
+      ],
+      "application_modules": [
+       1,
+       29
+      ]
+     }
+    },
+    {
+     "commit": "1e53c7e",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       5,
+       16
+      ]
+     }
+    },
+    {
+     "commit": "65b34be",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       163
+      ],
+      "application_modules": [
+       1,
+       1
+      ]
+     }
+    },
+    {
+     "commit": "27b5ca3",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       51
+      ],
+      "tooling_and_documents": [
+       2,
+       118
+      ],
+      "schema": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "commit": "8cf1836",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       26
+      ],
+      "views_and_clients": [
+       1,
+       28
+      ]
+     }
+    },
+    {
+     "commit": "2512403",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       5,
+       520
+      ]
+     }
+    },
+    {
+     "commit": "799cb43",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       33
+      ],
+      "schema": [
+       2,
+       38
+      ],
+      "views_and_clients": [
+       1,
+       54
+      ]
+     }
+    },
+    {
+     "commit": "c561dac",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       30
+      ]
+     }
+    },
+    {
+     "commit": "101ea1e",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       32
+      ]
+     }
+    },
+    {
+     "commit": "565782f",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       26
+      ]
+     }
+    },
+    {
+     "commit": "d9be8eb",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       29
+      ]
+     }
+    },
+    {
+     "commit": "56267d0",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       26
+      ]
+     }
+    },
+    {
+     "commit": "03d9399",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       28
+      ]
+     }
+    },
+    {
+     "commit": "9e7be04",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       31
+      ]
+     }
+    },
+    {
+     "commit": "bd7d1aa",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       325
+      ],
+      "other": [
+       1,
+       13
+      ]
+     }
+    },
+    {
+     "commit": "e86f8d6",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       130
+      ]
+     }
+    },
+    {
+     "commit": "ce8bb6d",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       24
+      ]
+     }
+    },
+    {
+     "commit": "894007c",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       2,
+       28
+      ],
+      "tooling_and_documents": [
+       1,
+       5
+      ]
+     }
+    },
+    {
+     "commit": "74a8dba",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       60
+      ],
+      "other": [
+       3,
+       23
+      ]
+     }
+    },
+    {
+     "commit": "2372677",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       44
+      ],
+      "application_modules": [
+       1,
+       48
+      ],
+      "views_and_clients": [
+       2,
+       19
+      ]
+     }
+    },
+    {
+     "commit": "72388d3",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       83
+      ]
+     }
+    },
+    {
+     "commit": "d7d8adf",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       2,
+       19
+      ],
+      "tests": [
+       2,
+       13
+      ],
+      "tooling_and_documents": [
+       1,
+       63
+      ]
+     }
+    },
+    {
+     "commit": "3fcba2a",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       10
+      ],
+      "tests": [
+       2,
+       6
+      ],
+      "tooling_and_documents": [
+       1,
+       86
+      ],
+      "views_and_clients": [
+       3,
+       13
+      ]
+     }
+    },
+    {
+     "commit": "217aa3c",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       152
+      ],
+      "other": [
+       1,
+       4
+      ]
+     }
+    },
+    {
+     "commit": "85db006",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       74
+      ]
+     }
+    },
+    {
+     "commit": "9e31a6f",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       15
+      ],
+      "application_modules": [
+       3,
+       14
+      ],
+      "schema": [
+       2,
+       8
+      ],
+      "views_and_clients": [
+       3,
+       6
+      ]
+     }
+    },
+    {
+     "commit": "107250a",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       28
+      ]
+     }
+    },
+    {
+     "commit": "6222349",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       5
+      ]
+     }
+    },
+    {
+     "commit": "04e7536",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       5
+      ]
+     }
+    },
+    {
+     "commit": "80d6c9a",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       108
+      ],
+      "application_modules": [
+       5,
+       106
+      ],
+      "schema": [
+       2,
+       32
+      ],
+      "views_and_clients": [
+       2,
+       156
+      ]
+     }
+    },
+    {
+     "commit": "1c7beec",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       48
+      ]
+     }
+    },
+    {
+     "commit": "01c66b4",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       275
+      ]
+     }
+    },
+    {
+     "commit": "dfbafd8",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       202
+      ]
+     }
+    },
+    {
+     "commit": "f155baa",
+     "date": "2026-06-26",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       27
+      ],
+      "application_modules": [
+       8,
+       70
+      ],
+      "other": [
+       1,
+       12
+      ],
+      "views_and_clients": [
+       7,
+       18
+      ]
+     }
+    },
+    {
+     "commit": "e47ba5f",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       151
+      ]
+     }
+    },
+    {
+     "commit": "70aec90",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       563
+      ]
+     }
+    },
+    {
+     "commit": "c601f33",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       65
+      ]
+     }
+    },
+    {
+     "commit": "a48f1d7",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       41
+      ]
+     }
+    },
+    {
+     "commit": "a2f7281",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       54
+      ]
+     }
+    },
+    {
+     "commit": "8f14f2f",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       9,
+       315
+      ],
+      "views_and_clients": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "commit": "7b14249",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       2,
+       8
+      ],
+      "tooling_and_documents": [
+       2,
+       4
+      ],
+      "other": [
+       1,
+       11
+      ],
+      "views_and_clients": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "commit": "fbb5af3",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       88
+      ]
+     }
+    },
+    {
+     "commit": "364ec71",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       40
+      ],
+      "views_and_clients": [
+       1,
+       34
+      ]
+     }
+    },
+    {
+     "commit": "d55652d",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       28
+      ]
+     }
+    },
+    {
+     "commit": "a72d0bb",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       10,
+       574
+      ],
+      "other": [
+       1,
+       46
+      ],
+      "tooling_and_documents": [
+       1,
+       1486
+      ],
+      "oo_core": [
+       5,
+       107
+      ],
+      "views_and_clients": [
+       2,
+       183
+      ]
+     }
+    },
+    {
+     "commit": "ced082a",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       5,
+       1262
+      ]
+     }
+    },
+    {
+     "commit": "cb290ac",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       21,
+       393
+      ],
+      "scoring_engine": [
+       1,
+       37
+      ],
+      "other": [
+       3,
+       13
+      ],
+      "tooling_and_documents": [
+       1,
+       2016
+      ],
+      "views_and_clients": [
+       20,
+       271
+      ]
+     }
+    },
+    {
+     "commit": "3ac6f04",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       2,
+       187
+      ],
+      "other": [
+       1,
+       2
+      ],
+      "schema": [
+       2,
+       93
+      ],
+      "views_and_clients": [
+       2,
+       518
+      ]
+     }
+    },
+    {
+     "commit": "7632ee4",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       3,
+       349
+      ],
+      "other": [
+       1,
+       96
+      ],
+      "schema": [
+       2,
+       169
+      ],
+      "views_and_clients": [
+       3,
+       293
+      ]
+     }
+    },
+    {
+     "commit": "28626f5",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       2
+      ],
+      "other": [
+       1,
+       46
+      ],
+      "tooling_and_documents": [
+       1,
+       1117
+      ],
+      "schema": [
+       2,
+       320
+      ],
+      "views_and_clients": [
+       2,
+       311
+      ]
+     }
+    },
+    {
+     "commit": "e65f037",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       90
+      ]
+     }
+    },
+    {
+     "commit": "ee86ffa",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       7
+      ],
+      "tooling_and_documents": [
+       21,
+       480
+      ]
+     }
+    },
+    {
+     "commit": "a75e8cb",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       21
+      ],
+      "views_and_clients": [
+       26,
+       380
+      ]
+     }
+    },
+    {
+     "commit": "b3c490e",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       68
+      ],
+      "views_and_clients": [
+       19,
+       176
+      ]
+     }
+    },
+    {
+     "commit": "66c8e6d",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       1,
+       33
+      ]
+     }
+    },
+    {
+     "commit": "0cc9305",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       20
+      ],
+      "views_and_clients": [
+       6,
+       102
+      ]
+     }
+    },
+    {
+     "commit": "02c2a69",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       4,
+       14
+      ]
+     }
+    },
+    {
+     "commit": "e5dfd43",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       2
+      ]
+     }
+    },
+    {
+     "commit": "9025c5a",
+     "date": "2026-06-28",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       28,
+       445
+      ]
+     }
+    },
+    {
+     "commit": "15726ec",
+     "date": "2026-06-28",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       12
+      ]
+     }
+    },
+    {
+     "commit": "bd92cdc",
+     "date": "2026-06-28",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       4,
+       22
+      ]
+     }
+    },
+    {
+     "commit": "a76c11d",
+     "date": "2026-06-28",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       3,
+       32
+      ]
+     }
+    },
+    {
+     "commit": "e704af1",
+     "date": "2026-06-28",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       60
+      ],
+      "views_and_clients": [
+       5,
+       43
+      ]
+     }
+    },
+    {
+     "commit": "99d220b",
+     "date": "2026-06-28",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       10,
+       213
+      ]
+     }
+    },
+    {
+     "commit": "7eed767",
+     "date": "2026-06-28",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       579
+      ]
+     }
+    },
+    {
+     "commit": "9185dc7",
+     "date": "2026-06-28",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       2,
+       121
+      ],
+      "tooling_and_documents": [
+       2,
+       208
+      ],
+      "views_and_clients": [
+       2,
+       91
+      ]
+     }
+    },
+    {
+     "commit": "6f8266c",
+     "date": "2026-06-28",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       4,
+       32
+      ]
+     }
+    },
+    {
+     "commit": "3f0ad5e",
+     "date": "2026-06-28",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       14
+      ]
+     }
+    },
+    {
+     "commit": "7ad49db",
+     "date": "2026-06-28",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       510
+      ],
+      "schema": [
+       3,
+       160
+      ]
+     }
+    },
+    {
+     "commit": "7cf1295",
+     "date": "2026-06-28",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       2,
+       101
+      ],
+      "views_and_clients": [
+       3,
+       112
+      ]
+     }
+    },
+    {
+     "commit": "5d92322",
+     "date": "2026-06-28",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       118
+      ],
+      "application_modules": [
+       4,
+       994
+      ],
+      "other": [
+       1,
+       6
+      ],
+      "rubric_configuration": [
+       1,
+       21
+      ],
+      "views_and_clients": [
+       3,
+       1579
+      ]
+     }
+    },
+    {
+     "commit": "cedc513",
+     "date": "2026-06-28",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       62
+      ]
+     }
+    },
+    {
+     "commit": "a0afd22",
+     "date": "2026-06-28",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       2,
+       9
+      ],
+      "other": [
+       3,
+       166
+      ],
+      "views_and_clients": [
+       7,
+       51
+      ]
+     }
+    },
+    {
+     "commit": "ee7b21b",
+     "date": "2026-06-28",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       358
+      ]
+     }
+    },
+    {
+     "commit": "4470f13",
+     "date": "2026-06-28",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       80
+      ],
+      "other": [
+       2,
+       79
+      ],
+      "tooling_and_documents": [
+       1,
+       102
+      ],
+      "views_and_clients": [
+       1,
+       5
+      ]
+     }
+    },
+    {
+     "commit": "9b0f84a",
+     "date": "2026-06-28",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       2
+      ],
+      "schema": [
+       1,
+       181
+      ]
+     }
+    },
+    {
+     "commit": "86c5040",
+     "date": "2026-06-28",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       2
+      ],
+      "schema": [
+       2,
+       169
+      ]
+     }
+    }
+   ]
+  },
+  "round2": {
+   "head": "ab9c30e",
+   "commits": [
+    {
+     "commit": "f4cdad7",
+     "date": "2026-06-27",
+     "baseline": true,
+     "layers": {
+      "other": [
+       13,
+       1913
+      ],
+      "tooling_and_documents": [
+       83,
+       9253
+      ],
+      "application_modules": [
+       60,
+       13662
+      ],
+      "scoring_engine": [
+       1,
+       221
+      ],
+      "views_and_clients": [
+       112,
+       21641
+      ],
+      "rubric_configuration": [
+       2,
+       1353
+      ],
+      "schema": [
+       77,
+       4378
+      ]
+     }
+    },
+    {
+     "commit": "73e3fce",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       40
+      ],
+      "other": [
+       2,
+       112
+      ],
+      "tooling_and_documents": [
+       1,
+       236
+      ]
+     }
+    },
+    {
+     "commit": "694f0a9",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       140
+      ],
+      "views_and_clients": [
+       1,
+       119
+      ]
+     }
+    },
+    {
+     "commit": "acc52bf",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       37
+      ]
+     }
+    },
+    {
+     "commit": "f4cc010",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       1,
+       32
+      ]
+     }
+    },
+    {
+     "commit": "5da35be",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       28
+      ]
+     }
+    },
+    {
+     "commit": "9c251d3",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       1,
+       38
+      ],
+      "other": [
+       1,
+       86
+      ],
+      "views_and_clients": [
+       6,
+       156
+      ]
+     }
+    },
+    {
+     "commit": "e80f8da",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       30
+      ],
+      "views_and_clients": [
+       9,
+       126
+      ]
+     }
+    },
+    {
+     "commit": "4ed4a08",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       8
+      ]
+     }
+    },
+    {
+     "commit": "87f8a72",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       66
+      ],
+      "views_and_clients": [
+       6,
+       56
+      ]
+     }
+    },
+    {
+     "commit": "8f72f8d",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       80
+      ],
+      "views_and_clients": [
+       4,
+       44
+      ]
+     }
+    },
+    {
+     "commit": "cc118b9",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       6
+      ],
+      "views_and_clients": [
+       4,
+       26
+      ]
+     }
+    },
+    {
+     "commit": "7353810",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       4,
+       48
+      ]
+     }
+    },
+    {
+     "commit": "d1748bb",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       4
+      ]
+     }
+    },
+    {
+     "commit": "bac026d",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       154
+      ],
+      "views_and_clients": [
+       3,
+       117
+      ]
+     }
+    },
+    {
+     "commit": "f1760a5",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       3,
+       117
+      ]
+     }
+    },
+    {
+     "commit": "bebfdf0",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       4,
+       68
+      ]
+     }
+    },
+    {
+     "commit": "b7787a3",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       4
+      ]
+     }
+    },
+    {
+     "commit": "4ce3735",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       212
+      ],
+      "application_modules": [
+       1,
+       18
+      ]
+     }
+    },
+    {
+     "commit": "d810ab5",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       2
+      ],
+      "application_modules": [
+       4,
+       86
+      ]
+     }
+    },
+    {
+     "commit": "e3bd061",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       3,
+       70
+      ]
+     }
+    },
+    {
+     "commit": "dbb97de",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       3,
+       54
+      ]
+     }
+    },
+    {
+     "commit": "25d3ed7",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       4
+      ]
+     }
+    },
+    {
+     "commit": "aaf2743",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       4
+      ],
+      "other": [
+       1,
+       118
+      ],
+      "views_and_clients": [
+       2,
+       108
+      ]
+     }
+    },
+    {
+     "commit": "359d550",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       10
+      ],
+      "tooling_and_documents": [
+       1,
+       121
+      ]
+     }
+    },
+    {
+     "commit": "93ca847",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       4
+      ]
+     }
+    },
+    {
+     "commit": "908b700",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "other": [
+       1,
+       98
+      ],
+      "views_and_clients": [
+       5,
+       102
+      ]
+     }
+    },
+    {
+     "commit": "962c458",
+     "date": "2026-06-27",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       2,
+       60
+      ]
+     }
+    },
+    {
+     "commit": "6d05716",
+     "date": "2026-08-15",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       3,
+       699
+      ],
+      "other": [
+       5,
+       2561
+      ],
+      "application_modules": [
+       4,
+       203
+      ],
+      "schema": [
+       5,
+       257
+      ],
+      "oo_core": [
+       13,
+       789
+      ]
+     }
+    },
+    {
+     "commit": "af0b854",
+     "date": "2026-08-15",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       128
+      ]
+     }
+    },
+    {
+     "commit": "3e06757",
+     "date": "2026-08-15",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       60
+      ]
+     }
+    },
+    {
+     "commit": "72799db",
+     "date": "2026-08-15",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       141
+      ],
+      "application_modules": [
+       32,
+       3417
+      ],
+      "schema": [
+       6,
+       176
+      ],
+      "oo_core": [
+       5,
+       75
+      ],
+      "views_and_clients": [
+       2,
+       565
+      ]
+     }
+    },
+    {
+     "commit": "119424e",
+     "date": "2026-08-15",
+     "baseline": false,
+     "layers": {
+      "schema": [
+       1,
+       110
+      ]
+     }
+    },
+    {
+     "commit": "25481ab",
+     "date": "2026-08-16",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       12,
+       125
+      ],
+      "schema": [
+       1,
+       237
+      ],
+      "oo_core": [
+       7,
+       45
+      ]
+     }
+    },
+    {
+     "commit": "a94a5c3",
+     "date": "2026-08-16",
+     "baseline": false,
+     "layers": {
+      "views_and_clients": [
+       2,
+       253
+      ],
+      "schema": [
+       1,
+       8
+      ]
+     }
+    },
+    {
+     "commit": "105b99b",
+     "date": "2026-09-04",
+     "baseline": false,
+     "layers": {
+      "application_modules": [
+       4,
+       1386
+      ],
+      "other": [
+       4,
+       428
+      ],
+      "tooling_and_documents": [
+       2,
+       483
+      ],
+      "schema": [
+       2,
+       324
+      ],
+      "views_and_clients": [
+       4,
+       1016
+      ]
+     }
+    },
+    {
+     "commit": "6f79b81",
+     "date": "2026-09-08",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       53
+      ],
+      "tests": [
+       10,
+       767
+      ]
+     }
+    },
+    {
+     "commit": "ab9c30e",
+     "date": "2026-09-08",
+     "baseline": false,
+     "layers": {
+      "tooling_and_documents": [
+       1,
+       4
+      ],
+      "other": [
+       1,
+       125
+      ],
+      "schema": [
+       1,
+       33
+      ],
+      "tests": [
+       1,
+       150
+      ]
+     }
+    }
+   ]
+  }
+ }
+}

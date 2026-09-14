@@ -66,3 +66,6 @@ Expected output: `All 2 result files reproduced exactly from snapshot/ and data/
 
 See `CITATION.cff`.
 
+## Change history by design layer (v1.3.0)
+
+`tools/extract_churn.py` read `git log --numstat` metadata from the two private code bases (commit hash, date, lines added and deleted per path; no file contents, messages or author identities) into `data/churn_counts.json`. `src/churn.py` classifies each path into a design layer, excludes each repository's baseline import commit, and writes `results/churn.json` and Figure 5 (`figures/figure5_churn`).

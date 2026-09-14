@@ -1,0 +1,219 @@
+{
+  "round1": {
+    "head": "86c5040",
+    "commits_after_baseline": 609,
+    "lines_changed": 186798,
+    "first_date": "2026-06-11",
+    "last_date": "2026-06-28",
+    "layers": {
+      "rubric_configuration": {
+        "commits": 9,
+        "lines_changed": 970,
+        "share_of_lines": 0.0052,
+        "last_change": "2026-06-28"
+      },
+      "scoring_engine": {
+        "commits": 7,
+        "lines_changed": 158,
+        "share_of_lines": 0.0008,
+        "last_change": "2026-06-27"
+      },
+      "schema": {
+        "commits": 58,
+        "lines_changed": 4864,
+        "share_of_lines": 0.026,
+        "last_change": "2026-06-28"
+      },
+      "oo_core": {
+        "commits": 1,
+        "lines_changed": 107,
+        "share_of_lines": 0.0006,
+        "last_change": "2026-06-27"
+      },
+      "application_modules": {
+        "commits": 169,
+        "lines_changed": 23995,
+        "share_of_lines": 0.1285,
+        "last_change": "2026-06-28"
+      },
+      "views_and_clients": {
+        "commits": 276,
+        "lines_changed": 74701,
+        "share_of_lines": 0.3999,
+        "last_change": "2026-06-28"
+      },
+      "tests": {
+        "commits": 44,
+        "lines_changed": 5192,
+        "share_of_lines": 0.0278,
+        "last_change": "2026-06-26"
+      },
+      "tooling_and_documents": {
+        "commits": 350,
+        "lines_changed": 67485,
+        "share_of_lines": 0.3613,
+        "last_change": "2026-06-28"
+      },
+      "other": {
+        "commits": 69,
+        "lines_changed": 9326,
+        "share_of_lines": 0.0499,
+        "last_change": "2026-06-28"
+      }
+    },
+    "rubric_change_positions": [
+      22,
+      48,
+      62,
+      115,
+      116,
+      118,
+      155,
+      230,
+      603
+    ],
+    "engine_change_positions": [
+      2,
+      11,
+      12,
+      25,
+      34,
+      35,
+      579
+    ],
+    "schema_change_positions": [
+      13,
+      22,
+      26,
+      39,
+      44,
+      72,
+      78,
+      81,
+      86,
+      88,
+      91,
+      109,
+      110,
+      121,
+      123,
+      126,
+      127,
+      143,
+      145,
+      149,
+      150,
+      153,
+      154,
+      155,
+      161,
+      165,
+      179,
+      182,
+      188,
+      207,
+      208,
+      229,
+      234,
+      262,
+      265,
+      269,
+      293,
+      391,
+      395,
+      397,
+      492,
+      494,
+      503,
+      514,
+      518,
+      523,
+      536,
+      539,
+      550,
+      558,
+      562,
+      580,
+      581,
+      582,
+      587,
+      601,
+      608,
+      609
+    ]
+  },
+  "round2": {
+    "head": "ab9c30e",
+    "commits_after_baseline": 37,
+    "lines_changed": 17667,
+    "first_date": "2026-06-27",
+    "last_date": "2026-09-08",
+    "layers": {
+      "rubric_configuration": {
+        "commits": 0,
+        "lines_changed": 0,
+        "share_of_lines": 0.0,
+        "last_change": null
+      },
+      "scoring_engine": {
+        "commits": 0,
+        "lines_changed": 0,
+        "share_of_lines": 0.0,
+        "last_change": null
+      },
+      "schema": {
+        "commits": 7,
+        "lines_changed": 1145,
+        "share_of_lines": 0.0648,
+        "last_change": "2026-09-08"
+      },
+      "oo_core": {
+        "commits": 3,
+        "lines_changed": 909,
+        "share_of_lines": 0.0515,
+        "last_change": "2026-08-16"
+      },
+      "application_modules": {
+        "commits": 10,
+        "lines_changed": 5437,
+        "share_of_lines": 0.3077,
+        "last_change": "2026-09-04"
+      },
+      "views_and_clients": {
+        "commits": 17,
+        "lines_changed": 2990,
+        "share_of_lines": 0.1692,
+        "last_change": "2026-09-04"
+      },
+      "tests": {
+        "commits": 2,
+        "lines_changed": 917,
+        "share_of_lines": 0.0519,
+        "last_change": "2026-09-08"
+      },
+      "tooling_and_documents": {
+        "commits": 17,
+        "lines_changed": 2041,
+        "share_of_lines": 0.1155,
+        "last_change": "2026-09-08"
+      },
+      "other": {
+        "commits": 16,
+        "lines_changed": 4228,
+        "share_of_lines": 0.2393,
+        "last_change": "2026-09-08"
+      }
+    },
+    "rubric_change_positions": [],
+    "engine_change_positions": [],
+    "schema_change_positions": [
+      28,
+      31,
+      32,
+      33,
+      34,
+      35,
+      37
+    ]
+  }
+}

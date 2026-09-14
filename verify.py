@@ -1,7 +1,7 @@
 """Recompute every count, check and figure datum reported in the articles and compare with results/.
 
 Checks results/metrics.json (src/repo_metrics.py) and results/figure_data.json
-(src/make_figures.py; needs matplotlib).
+(src/make_figures.py; needs matplotlib) and results/churn.json (src/churn.py).
 Exit status 0 means everything reproduces exactly.
 """
 import json
@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-CHECKS = [("metrics.json", "repo_metrics.py"), ("figure_data.json", "make_figures.py")]
+CHECKS = [("metrics.json", "repo_metrics.py"), ("figure_data.json", "make_figures.py"), ("churn.json", "churn.py")]
 
 
 def main():
@@ -18,7 +18,7 @@ def main():
     for result, script in CHECKS:
         path = ROOT / "results" / result
         committed = path.read_bytes()
-        subprocess.run([sys.executable, str(ROOT / "src" / script)], check=True, stdout=subprocess.DEVNULL)
+        subprocess.run([sys.executable, str(ROOT / "src" / script)], check=True, stdout=subprocess.DEVNULL, cwd=ROOT / "src")
         fresh = path.read_bytes()
         path.write_bytes(committed)
         if json.loads(fresh) != json.loads(committed):
