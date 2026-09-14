@@ -69,3 +69,5 @@ See `CITATION.cff`.
 ## Change history by design layer (v1.3.0)
 
 `tools/extract_churn.py` read `git log --numstat` metadata from the two private code bases (commit hash, date, lines added and deleted per path; no file contents, messages or author identities) into `data/churn_counts.json`. `src/churn.py` classifies each path into a design layer, excludes each repository's baseline import commit, and writes `results/churn.json` and Figure 5 (`figures/figure5_churn`).
+
+`src/churn.py` also reports, in `results/churn.json` under `statistics`, Kolmogorov-Smirnov tests of when the rubric configuration, scoring engine and schema changed, a Mann-Whitney test that criteria-layer changes came earlier than schema changes, changed lines per line of each layer with bootstrap confidence intervals, and Fisher's exact test comparing rounds (v1.4). Layer sizes at each head commit are line counts from `git diff --numstat` against the empty tree.
