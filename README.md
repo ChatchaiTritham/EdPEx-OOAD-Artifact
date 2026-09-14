@@ -1,12 +1,9 @@
-# EdPEx information platform — design and evaluation artifact
+# Version-history study of an EdPEx assessment information system — reproducibility artifact
 
-Reproducibility artifact for two articles about one EdPEx (Baldrige-based) quality information
-platform, built in two rounds at a Thai public university:
-
-- *Object-oriented design and evolution of an EdPEx quality information system across two institutional
-  deployments* (PeerJ Computer Science, submitted);
-- *From excellence criteria to an operational quality system: designing an EdPEx information
-  platform for a Thai university* (The TQM Journal, submitted) — Table III.
+Data and scripts for the article *When does criteria-bearing code settle? Mining the version history of an
+assessment information system across two deployments* (PeerJ Computer Science, submitted). The system was
+deployed twice at a Thai public university, first for a faculty (round 1) and then for an international
+college (round 2).
 
 ## What is here
 
@@ -16,8 +13,9 @@ platform, built in two rounds at a Thai public university:
 | `data/derived_counts.json` | Counts taken from files that cannot be published (automated tests, application code, version history), each test file with its SHA-256 |
 | `src/repo_metrics.py` | Recomputes every count reported in the articles |
 | `results/metrics.json` | The counts as reported |
-| `src/make_figures.py`, `figures/`, `results/figure_data.json` | Figures 3 and 4 of the PeerJ CS article and the data behind them |
-| `verify.py` | Recomputes both result files and compares them with the committed versions |
+| `src/make_figures.py`, `figures/`, `results/figure_data.json` | Figures 3 and 4 of the article and the data behind them |
+| `tools/extract_churn.py`, `data/churn_counts.json`, `src/churn.py`, `results/churn.json`, `figures/figure5_churn.*` | Change metadata by layer, the statistics of Table 2 and Figure 5 |
+| `verify.py` | Recomputes all result files and compares them with the committed versions |
 | `tools/extract_snapshot.py` | How the snapshot was produced from the private repositories (authors only) |
 | `MANIFEST.sha256` | SHA-256 of every file in `snapshot/`, `data/` and `src/` |
 
