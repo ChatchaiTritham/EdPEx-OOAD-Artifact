@@ -51,6 +51,63 @@ def summarise(data):
     return out
 
 
+def statistics(data, s, seed=20260915, boot=5000):
+    """Significance of the stability pattern (round 1 unless stated).
+
+    timing    - one-sample Kolmogorov-Smirnov tests of the commit positions that touched the rubric
+                configuration, the scoring engine and the schema against a uniform spread over the round, and a
+                one-sided Mann-Whitney test that criteria-layer changes occur earlier than schema changes;
+    intensity - changed lines per line of each layer at the head commit, with 95% bootstrap confidence
+                intervals obtained by resampling commits;
+    round 2   - Fisher's exact test comparing the share of commits touching the criteria layers in the two rounds.
+    """
+    import numpy as np
+    from scipy import stats
+
+    rng = np.random.default_rng(seed)
+    r1 = s["round1"]
+    n = r1["commits_after_baseline"]
+    crit_pos = sorted(set(r1["rubric_change_positions"]) | set(r1["engine_change_positions"]))
+    timing = {
+        "rubric_ks_vs_uniform": _ks(r1["rubric_change_positions"], n, stats),
+        "engine_ks_vs_uniform": _ks(r1["engine_change_positions"], n, stats),
+        "schema_ks_vs_uniform": _ks(r1["schema_change_positions"], n, stats),
+        "criteria_earlier_than_schema_mannwhitney_p": float(stats.mannwhitneyu(crit_pos, r1["schema_change_positions"], alternative="less").pvalue),
+        "criteria_commits": len(crit_pos),
+        "criteria_median_position": float(np.median(crit_pos)),
+        "schema_median_position": float(np.median(r1["schema_change_positions"])),
+    }
+    changes = [c for c in data["rounds"]["round1"]["commits"] if not c["baseline"]]
+    size = data["rounds"]["round1"]["layer_lines_at_head"]
+    groups = {"criteria layers": ["rubric_configuration", "scoring_engine"], "object-oriented core": ["oo_core"],
+              "database schema": ["schema"], "application modules": ["application_modules"],
+              "views and clients": ["views_and_clients"], "tests": ["tests"]}
+    lines = np.array([[sum(c["layers"].get(l, [0, 0])[1] for l in ls) for ls in groups.values()] for c in changes], dtype=float)
+    sizes = np.array([sum(size.get(l, 0) for l in ls) for ls in groups.values()], dtype=float)
+    point = lines.sum(axis=0) / sizes
+    idx = rng.integers(0, len(changes), size=(boot, len(changes)))
+    samples = np.stack([lines[i].sum(axis=0) / sizes for i in idx])
+    intensity = {g: {"lines_at_head": int(sizes[k]), "lines_changed": int(lines[:, k].sum()),
+                     "changed_per_line": round(float(point[k]), 3),
+                     "ci95": [round(float(np.percentile(samples[:, k], 2.5)), 3), round(float(np.percentile(samples[:, k], 97.5)), 3)]}
+                 for k, g in enumerate(groups)}
+
+    def touch(rnd):
+        return sum(1 for c in data["rounds"][rnd]["commits"]
+                   if not c["baseline"] and ({"rubric_configuration", "scoring_engine"} & set(c["layers"])))
+
+    t1, t2 = touch("round1"), touch("round2")
+    fisher = stats.fisher_exact([[t1, n - t1], [t2, s["round2"]["commits_after_baseline"] - t2]])
+    return {"timing": timing, "intensity_round1": intensity,
+            "criteria_commits_by_round": {"round1": [t1, n], "round2": [t2, s["round2"]["commits_after_baseline"]],
+                                          "fisher_p": float(fisher.pvalue)}}
+
+
+def _ks(positions, n, stats):
+    res = stats.kstest([p / n for p in positions], "uniform")
+    return {"n": len(positions), "D": round(float(res.statistic), 3), "p": float(res.pvalue)}
+
+
 def figure(s):
     fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(W, W * 0.78), gridspec_kw={"height_ratios": [1.25, 1]})
     names = [n for n in LABELS]
@@ -84,9 +141,11 @@ def figure(s):
 def main():
     data = json.loads((ROOT / "data" / "churn_counts.json").read_text(encoding="utf-8"))
     s = summarise(data)
+    s["statistics"] = statistics(data, s)
     (ROOT / "results" / "churn.json").write_text(json.dumps(s, indent=2) + "\n", encoding="utf-8")
     figure(s)
-    for rnd, v in s.items():
+    print(json.dumps(s["statistics"], indent=1))
+    for rnd, v in ((k, s[k]) for k in ("round1", "round2")):
         print(rnd, v["commits_after_baseline"], "commits,", v["lines_changed"], "lines")
         for name in LABELS:
             L = v["layers"][name]

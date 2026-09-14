@@ -13,6 +13,17 @@
  "rounds": {
   "round1": {
    "head": "86c5040",
+   "layer_lines_at_head": {
+    "tooling_and_documents": 45323,
+    "other": 5734,
+    "application_modules": 17084,
+    "scoring_engine": 230,
+    "views_and_clients": 79846,
+    "rubric_configuration": 1356,
+    "schema": 5459,
+    "oo_core": 782,
+    "tests": 5285
+   },
    "commits": [
     {
      "commit": "0d7a4dc",
@@ -8253,6 +8264,17 @@
   },
   "round2": {
    "head": "ab9c30e",
+   "layer_lines_at_head": {
+    "tooling_and_documents": 11158,
+    "other": 6027,
+    "application_modules": 18567,
+    "scoring_engine": 221,
+    "views_and_clients": 23479,
+    "rubric_configuration": 1353,
+    "schema": 5523,
+    "oo_core": 847,
+    "tests": 917
+   },
    "commits": [
     {
      "commit": "f4cdad7",

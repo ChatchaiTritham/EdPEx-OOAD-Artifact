@@ -215,5 +215,95 @@
       35,
       37
     ]
+  },
+  "statistics": {
+    "timing": {
+      "rubric_ks_vs_uniform": {
+        "n": 9,
+        "D": 0.523,
+        "p": 0.008060563387203462
+      },
+      "engine_ks_vs_uniform": {
+        "n": 7,
+        "D": 0.8,
+        "p": 2.629911409742429e-05
+      },
+      "schema_ks_vs_uniform": {
+        "n": 58,
+        "D": 0.193,
+        "p": 0.022949726406104265
+      },
+      "criteria_earlier_than_schema_mannwhitney_p": 0.000725702830135718,
+      "criteria_commits": 16,
+      "criteria_median_position": 55.0,
+      "schema_median_position": 197.5
+    },
+    "intensity_round1": {
+      "criteria layers": {
+        "lines_at_head": 1586,
+        "lines_changed": 1128,
+        "changed_per_line": 0.711,
+        "ci95": [
+          0.137,
+          1.603
+        ]
+      },
+      "object-oriented core": {
+        "lines_at_head": 782,
+        "lines_changed": 107,
+        "changed_per_line": 0.137,
+        "ci95": [
+          0.0,
+          0.41
+        ]
+      },
+      "database schema": {
+        "lines_at_head": 5459,
+        "lines_changed": 4864,
+        "changed_per_line": 0.891,
+        "ci95": [
+          0.589,
+          1.224
+        ]
+      },
+      "application modules": {
+        "lines_at_head": 17084,
+        "lines_changed": 23995,
+        "changed_per_line": 1.405,
+        "ci95": [
+          0.784,
+          2.372
+        ]
+      },
+      "views and clients": {
+        "lines_at_head": 79846,
+        "lines_changed": 74701,
+        "changed_per_line": 0.936,
+        "ci95": [
+          0.567,
+          1.459
+        ]
+      },
+      "tests": {
+        "lines_at_head": 5285,
+        "lines_changed": 5192,
+        "changed_per_line": 0.982,
+        "ci95": [
+          0.587,
+          1.44
+        ]
+      }
+    },
+    "criteria_commits_by_round": {
+      "round1": [
+        16,
+        609
+      ],
+      "round2": [
+        0,
+        37
+      ],
+      "fisher_p": 1.0
+    }
   }
 }

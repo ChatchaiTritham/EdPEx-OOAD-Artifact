@@ -57,7 +57,14 @@ def main():
                 entry = cur["layers"].setdefault(layer(path.replace("\\", "/")), [0, 0])
                 entry[0] += 1
                 entry[1] += lines
-        out["rounds"][rnd] = {"head": head[:7], "commits": commits}
+        # size of each layer at the head commit: lines per file from a diff against the empty tree
+        sizes = {}
+        for line in git(repo, "diff", "--numstat", "4b825dc642cb6eb9a060e54bf8d69288fbee4904", head).splitlines():
+            added, _, path = line.split("\t", 2)
+            if added != "-":
+                name = layer(path.replace("\\", "/"))
+                sizes[name] = sizes.get(name, 0) + int(added)
+        out["rounds"][rnd] = {"head": head[:7], "layer_lines_at_head": sizes, "commits": commits}
     (ROOT / "data" / "churn_counts.json").write_text(json.dumps(out, indent=1) + "\n", encoding="utf-8")
     for rnd, v in out["rounds"].items():
         print(rnd, len(v["commits"]), "commits, head", v["head"])
