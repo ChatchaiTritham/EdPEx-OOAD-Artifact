@@ -1,0 +1,122 @@
+{
+  "V1_calendar_time": {
+    "span_days": 17,
+    "rubric_ks": {
+      "n": 9,
+      "D": 0.366,
+      "p": 0.13774454063072616
+    },
+    "engine_ks": {
+      "n": 7,
+      "D": 0.563,
+      "p": 0.012776385186466994
+    },
+    "schema_ks": {
+      "n": 58,
+      "D": 0.242,
+      "p": 0.0017440561894386253
+    },
+    "criteria_earlier_than_schema_p": 0.0013957730755618316
+  },
+  "V2_without_large_commits": {
+    "threshold_lines": 1283.0,
+    "commits_kept": 578,
+    "commits_dropped": 31,
+    "rubric_ks": {
+      "n": 6,
+      "D": 0.751,
+      "p": 0.000512601080186716
+    },
+    "engine_ks": {
+      "n": 6,
+      "D": 0.946,
+      "p": 4.760286899298843e-08
+    },
+    "criteria_earlier_than_schema_p": 7.09435750695262e-06,
+    "intensity_criteria": {
+      "lines_at_head": 1586,
+      "changed_per_line": 0.318,
+      "ci95": [
+        0.076,
+        0.695
+      ]
+    },
+    "intensity_schema": {
+      "lines_at_head": 5459,
+      "changed_per_line": 0.648,
+      "ci95": [
+        0.411,
+        0.929
+      ]
+    }
+  },
+  "V3_criteria_earlier_than_each_layer": {
+    "criteria_n": 16,
+    "criteria_median_position": 55.0,
+    "layers": {
+      "schema": {
+        "n": 58,
+        "median_position": 197.5,
+        "p": 0.000725702830135718,
+        "p_holm": 0.002902811320542872
+      },
+      "oo_core": {
+        "n": 1,
+        "median_position": 577.0,
+        "p": 0.1764705882352941,
+        "p_holm": 0.1764705882352941
+      },
+      "application_modules": {
+        "n": 169,
+        "median_position": 232.0,
+        "p": 0.0019157722248531654,
+        "p_holm": 0.0057473166745594965
+      },
+      "views_and_clients": {
+        "n": 276,
+        "median_position": 383.5,
+        "p": 3.268964205399475e-05,
+        "p_holm": 0.00019613785232396852
+      },
+      "tests": {
+        "n": 44,
+        "median_position": 228.0,
+        "p": 0.01149780820909029,
+        "p_holm": 0.02299561641818058
+      },
+      "tooling_and_documents": {
+        "n": 350,
+        "median_position": 294.0,
+        "p": 0.0002662318119010907,
+        "p_holm": 0.0013311590595054535
+      }
+    }
+  },
+  "V4_product_code_shares": {
+    "rubric_configuration": 0.0088,
+    "scoring_engine": 0.0014,
+    "schema": 0.0442,
+    "oo_core": 0.001,
+    "application_modules": 0.2182,
+    "views_and_clients": 0.6792,
+    "tests": 0.0472
+  },
+  "V5_criteria_split_intensity": {
+    "rubric_configuration": {
+      "lines_at_head": 1356,
+      "changed_per_line": 0.715,
+      "ci95": [
+        0.06,
+        1.756
+      ]
+    },
+    "scoring_engine": {
+      "lines_at_head": 230,
+      "changed_per_line": 0.687,
+      "ci95": [
+        0.174,
+        1.326
+      ]
+    }
+  }
+}
