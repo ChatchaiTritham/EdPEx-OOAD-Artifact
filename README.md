@@ -14,7 +14,7 @@ college (round 2).
 | `src/repo_metrics.py` | Recomputes every count reported in the articles |
 | `results/metrics.json` | The counts as reported |
 | `src/make_figures.py`, `figures/`, `results/figure_data.json` | Figures 3 and 4 of the article and the data behind them |
-| `tools/extract_churn.py`, `data/churn_counts.json`, `src/churn.py`, `results/churn.json`, `figures/figure5_churn.*` | Change metadata by layer, the statistics of Table 2 and Figure 5 |
+| `tools/extract_churn.py`, `data/churn_counts.json`, `src/churn.py`, `results/churn.json`, `figures/figure5_churn.*`, `figures/figure6_intensity.*` | Change metadata by layer, the statistics of Table 2, and Figures 1 and 2 of the article (files figure5_churn and figure6_intensity) |
 | `verify.py` | Recomputes all result files and compares them with the committed versions |
 | `tools/extract_snapshot.py` | How the snapshot was produced from the private repositories (authors only) |
 | `MANIFEST.sha256` | SHA-256 of every file in `snapshot/`, `data/` and `src/` |

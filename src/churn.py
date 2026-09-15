@@ -138,12 +138,31 @@ def figure(s):
     save(fig, "figure5_churn")
 
 
+def intensity_figure(stats):
+    """Forest plot: changed lines per line of layer with 95% bootstrap intervals (first deployment)."""
+    rows = sorted(stats["intensity_round1"].items(), key=lambda kv: kv[1]["changed_per_line"])
+    fig, ax = plt.subplots(figsize=(W, W * 0.36))
+    for i, (name, v) in enumerate(rows):
+        colour = OKABE["blue"] if name == "criteria layers" else OKABE["grey"]
+        ax.plot(v["ci95"], [i, i], color=colour, lw=1.4)
+        ax.plot([v["changed_per_line"]], [i], "o", color=colour, ms=4)
+    crit = stats["intensity_round1"]["criteria layers"]["ci95"]
+    ax.axvspan(crit[0], crit[1], color=OKABE["blue"], alpha=0.08, lw=0)
+    ax.set_yticks(range(len(rows)))
+    ax.set_yticklabels([n[0].upper() + n[1:] for n, _ in rows])
+    ax.set_xlabel("Changed lines per line of layer, first deployment (95% bootstrap interval)")
+    ax.set_xlim(0, None)
+    fig.subplots_adjust(left=0.22, right=0.98, bottom=0.24, top=0.97)
+    save(fig, "figure6_intensity")
+
+
 def main():
     data = json.loads((ROOT / "data" / "churn_counts.json").read_text(encoding="utf-8"))
     s = summarise(data)
     s["statistics"] = statistics(data, s)
     (ROOT / "results" / "churn.json").write_text(json.dumps(s, indent=2) + "\n", encoding="utf-8")
     figure(s)
+    intensity_figure(s["statistics"])
     print(json.dumps(s["statistics"], indent=1))
     for rnd, v in ((k, s[k]) for k in ("round1", "round2")):
         print(rnd, v["commits_after_baseline"], "commits,", v["lines_changed"], "lines")
