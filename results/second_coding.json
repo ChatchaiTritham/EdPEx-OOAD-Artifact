@@ -1,0 +1,540 @@
+{
+  "sample_size_per_round": 100,
+  "seed": 42,
+  "rounds": {
+    "round1": {
+      "head": "86c5040",
+      "files_in_history": 1120,
+      "coded": 94,
+      "agreement": 0.617,
+      "cohen_kappa": 0.4785,
+      "agreement_unrefined_coder_b": 0.5638,
+      "cohen_kappa_unrefined_coder_b": 0.4484,
+      "per_layer_coder_a": {
+        "application_modules": {
+          "n": 9,
+          "agreed": 1
+        },
+        "other": {
+          "n": 2,
+          "agreed": 1
+        },
+        "schema": {
+          "n": 11,
+          "agreed": 7
+        },
+        "tests": {
+          "n": 4,
+          "agreed": 4
+        },
+        "tooling_and_documents": {
+          "n": 45,
+          "agreed": 28
+        },
+        "views_and_clients": {
+          "n": 23,
+          "agreed": 17
+        }
+      },
+      "disagreements": [
+        {
+          "path": "clients/mobile-expo/.env.example",
+          "coder_a": "views_and_clients",
+          "coder_b": "tooling_and_documents",
+          "coder_b_unrefined": "tooling_and_documents"
+        },
+        {
+          "path": "app/roadmap.php",
+          "coder_a": "application_modules",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": ".claude/specs/edpex-data-collection/03-design-ood.md",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "schema",
+          "coder_b_unrefined": "schema"
+        },
+        {
+          "path": ".claude/harnesses/starter/claude-progress.txt",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "other",
+          "coder_b_unrefined": "other"
+        },
+        {
+          "path": ".claude/harnesses/_lib/check_db_sourced.php",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "application_modules",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "app/letci_harvest.php",
+          "coder_a": "application_modules",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "scoring_engine"
+        },
+        {
+          "path": "assets/img/logo-rmutk.jpg",
+          "coder_a": "views_and_clients",
+          "coder_b": "tooling_and_documents",
+          "coder_b_unrefined": "other"
+        },
+        {
+          "path": "app/op_insights.php",
+          "coder_a": "application_modules",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "scoring_engine"
+        },
+        {
+          "path": "clients/mobile-expo/package.json",
+          "coder_a": "views_and_clients",
+          "coder_b": "other",
+          "coder_b_unrefined": "other"
+        },
+        {
+          "path": "config/tenants.php",
+          "coder_a": "other",
+          "coder_b": "application_modules",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": ".claude/harnesses/edpex-tokens-web/feature-list.json",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "views_and_clients"
+        },
+        {
+          "path": ".claude/skills/sciutk-agentic/SKILL.md",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "tooling_and_documents"
+        },
+        {
+          "path": "assets/css/arc-legacy-bridge.css",
+          "coder_a": "views_and_clients",
+          "coder_b": "tooling_and_documents",
+          "coder_b_unrefined": "views_and_clients"
+        },
+        {
+          "path": ".claude/harnesses/edpex-report-g-criteria/feature-list.json",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "application_modules",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": ".claude/harnesses/s11-assessment-cycle-api/feature-list.json",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "other",
+          "coder_b_unrefined": "other"
+        },
+        {
+          "path": "eservice/views/apply.php",
+          "coder_a": "application_modules",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "views_and_clients"
+        },
+        {
+          "path": "app/charts.php",
+          "coder_a": "application_modules",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "scoring_engine"
+        },
+        {
+          "path": ".docs/extracted/kpi69_text.json",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "other",
+          "coder_b_unrefined": "other"
+        },
+        {
+          "path": "tools/api_http_rbac.php",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "application_modules",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "app/oauth.php",
+          "coder_a": "application_modules",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "clients/web-next/package-lock.json",
+          "coder_a": "views_and_clients",
+          "coder_b": "other",
+          "coder_b_unrefined": "other"
+        },
+        {
+          "path": "assets/css/sci-polish.css",
+          "coder_a": "views_and_clients",
+          "coder_b": "tooling_and_documents",
+          "coder_b_unrefined": "views_and_clients"
+        },
+        {
+          "path": "schema/042_harvest_fixes.sql",
+          "coder_a": "schema",
+          "coder_b": "other",
+          "coder_b_unrefined": "other"
+        },
+        {
+          "path": "app/data_conformance.php",
+          "coder_a": "application_modules",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "app/dg_ownership.php",
+          "coder_a": "application_modules",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "tools/seed_kpi_actuals_2569.php",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "scoring_engine",
+          "coder_b_unrefined": "scoring_engine"
+        },
+        {
+          "path": "schema/rollback/README.md",
+          "coder_a": "schema",
+          "coder_b": "tooling_and_documents",
+          "coder_b_unrefined": "tooling_and_documents"
+        },
+        {
+          "path": "schema/039_harvest_map_w3.sql",
+          "coder_a": "schema",
+          "coder_b": "other",
+          "coder_b_unrefined": "other"
+        },
+        {
+          "path": ".claude/specs/edpex-data-collection/01-analysis-ooa.md",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "schema",
+          "coder_b_unrefined": "schema"
+        },
+        {
+          "path": "tools/visual/.gitignore",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "other",
+          "coder_b_unrefined": "other"
+        },
+        {
+          "path": "tools/seed_admin.php",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": ".claude/harnesses/edpex-tokens-expo/feature-list.json",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "other",
+          "coder_b_unrefined": "other"
+        },
+        {
+          "path": ".claude/memory/feedback-hitl-gates.md",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "schema",
+          "coder_b_unrefined": "schema"
+        },
+        {
+          "path": ".claude/harnesses/edpex-expo/claude-progress.txt",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "other",
+          "coder_b_unrefined": "other"
+        },
+        {
+          "path": "schema/005_cat7_indicator_meta.sql",
+          "coder_a": "schema",
+          "coder_b": "other",
+          "coder_b_unrefined": "other"
+        },
+        {
+          "path": "tools/cat7_dq_status.php",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "application_modules"
+        }
+      ]
+    },
+    "round2": {
+      "head": "ab9c30e",
+      "files_in_history": 444,
+      "coded": 100,
+      "agreement": 0.33,
+      "cohen_kappa": 0.1705,
+      "agreement_unrefined_coder_b": 0.33,
+      "cohen_kappa_unrefined_coder_b": 0.2076,
+      "per_layer_coder_a": {
+        "application_modules": {
+          "n": 25,
+          "agreed": 3
+        },
+        "oo_core": {
+          "n": 3,
+          "agreed": 2
+        },
+        "other": {
+          "n": 6,
+          "agreed": 2
+        },
+        "schema": {
+          "n": 14,
+          "agreed": 10
+        },
+        "tests": {
+          "n": 2,
+          "agreed": 0
+        },
+        "tooling_and_documents": {
+          "n": 26,
+          "agreed": 2
+        },
+        "views_and_clients": {
+          "n": 24,
+          "agreed": 14
+        }
+      },
+      "disagreements": [
+        {
+          "path": "tools/db_mojibake_scan.php",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "api/handlers/strategy_ops.php",
+          "coder_a": "application_modules",
+          "coder_b": "scoring_engine",
+          "coder_b_unrefined": "scoring_engine"
+        },
+        {
+          "path": "tools/verify_sar_api.php",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "application_modules",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "eservice/views/profile.php",
+          "coder_a": "application_modules",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "views_and_clients"
+        },
+        {
+          "path": "docs/admission-info-system-slim4-design.md",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "views_and_clients"
+        },
+        {
+          "path": "config/config.php",
+          "coder_a": "other",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "scoring_engine"
+        },
+        {
+          "path": "assets/img/courses/course_it.png",
+          "coder_a": "views_and_clients",
+          "coder_b": "other",
+          "coder_b_unrefined": "other"
+        },
+        {
+          "path": "tools/trace.php",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "application_modules",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "app/ui.php",
+          "coder_a": "application_modules",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "views_and_clients"
+        },
+        {
+          "path": "tools/import_users_from_sciutk.php",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "app/report.php",
+          "coder_a": "application_modules",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "scoring_engine"
+        },
+        {
+          "path": "tools/_pipeline_predicates.php",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "api/routes.php",
+          "coder_a": "application_modules",
+          "coder_b": "scoring_engine",
+          "coder_b_unrefined": "scoring_engine"
+        },
+        {
+          "path": "api/index.php",
+          "coder_a": "application_modules",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "composer.json",
+          "coder_a": "other",
+          "coder_b": "application_modules",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "tools/area_draft_review.php",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "scoring_engine"
+        },
+        {
+          "path": "src/Admission/Repository/VisaRecordRepository.php",
+          "coder_a": "oo_core",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "oo_core"
+        },
+        {
+          "path": "assets/img/rmutk_logo.png",
+          "coder_a": "views_and_clients",
+          "coder_b": "tooling_and_documents",
+          "coder_b_unrefined": "other"
+        },
+        {
+          "path": "tools/seed_op_2569.php",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "application_modules",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "tools/db_value_sanity.php",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "tools/seed_control_catalog.php",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "application_modules",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "composer.lock",
+          "coder_a": "other",
+          "coder_b": "application_modules",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "schema/047_harvest_track_c.sql",
+          "coder_a": "schema",
+          "coder_b": "other",
+          "coder_b_unrefined": "other"
+        },
+        {
+          "path": "tests/bootstrap.php",
+          "coder_a": "tests",
+          "coder_b": "application_modules",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "eservice/views/services.php",
+          "coder_a": "application_modules",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "views_and_clients"
+        },
+        {
+          "path": ".gitignore",
+          "coder_a": "other",
+          "coder_b": "tooling_and_documents",
+          "coder_b_unrefined": "tooling_and_documents"
+        },
+        {
+          "path": "assets/img/courses/sci.png",
+          "coder_a": "views_and_clients",
+          "coder_b": "other",
+          "coder_b_unrefined": "other"
+        },
+        {
+          "path": "tools/seed_cat74_indicators.php",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "application_modules",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "etl/tests/test_mrz.py",
+          "coder_a": "application_modules",
+          "coder_b": "tooling_and_documents",
+          "coder_b_unrefined": "tooling_and_documents"
+        },
+        {
+          "path": "views/kpi_quality.php",
+          "coder_a": "views_and_clients",
+          "coder_b": "scoring_engine",
+          "coder_b_unrefined": "scoring_engine"
+        },
+        {
+          "path": "assets/img/courses/rmutk_hero.png",
+          "coder_a": "views_and_clients",
+          "coder_b": "other",
+          "coder_b_unrefined": "other"
+        },
+        {
+          "path": "etl/tests/__init__.py",
+          "coder_a": "application_modules",
+          "coder_b": "other",
+          "coder_b_unrefined": "other"
+        },
+        {
+          "path": "app/sentiment.php",
+          "coder_a": "application_modules",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "schema/005_cat7_indicator_meta.sql",
+          "coder_a": "schema",
+          "coder_b": "other",
+          "coder_b_unrefined": "other"
+        },
+        {
+          "path": "index.php",
+          "coder_a": "application_modules",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "views_and_clients"
+        },
+        {
+          "path": "tools/aunqa_migrate.php",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "application_modules",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "eservice/views/apply.php",
+          "coder_a": "application_modules",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "views_and_clients"
+        },
+        {
+          "path": "app/cat7_sync.php",
+          "coder_a": "application_modules",
+          "coder_b": "scoring_engine",
+          "coder_b_unrefined": "scoring_engine"
+        },
+        {
+          "path": "tools/smoke_import_whitelist.php",
+          "coder_a": "tooling_and_documents",
+          "coder_b": "views_and_clients",
+          "coder_b_unrefined": "application_modules"
+        },
+        {
+          "path": "schema/050_award_records_import_rollback.sql",
+          "coder_a": "schema",
+          "coder_b": "other",
+          "coder_b_unrefined": "other"
+        }
+      ]
+    }
+  }
+}

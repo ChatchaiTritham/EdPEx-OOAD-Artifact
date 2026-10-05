@@ -71,3 +71,18 @@ See `CITATION.cff`.
 `src/churn.py` also reports, in `results/churn.json` under `statistics`, Kolmogorov-Smirnov tests of when the rubric configuration, scoring engine and schema changed, a Mann-Whitney test that criteria-layer changes came earlier than schema changes, changed lines per line of each layer with bootstrap confidence intervals, and Fisher's exact test comparing rounds (v1.4).
 
 `src/sensitivity.py` (v1.6) tests whether those findings survive other analysis choices and writes `results/sensitivity.json`: timing on calendar days instead of commit positions, dropping commits above the 95th percentile of changed lines, criteria-layer timing against every other layer (Holm-adjusted), line shares of product code only, and the intensity of the rubric configuration and scoring engine separately. Layer sizes at each head commit are line counts from `git diff --numstat` against the empty tree.
+
+## Mapping sensitivity and second coding (v1.7.0)
+
+`tools/extract_churn_altmap.py` re-extracts the same `git log --numstat` metadata from both code bases
+under an alternative layer convention: every code file that the published mapping places in tooling and
+documents because of its directory is reassigned to the layer its language implies, so that only
+Markdown, YAML, text and lock files remain tooling. It writes `data/churn_counts_v6.json`, and
+`src/altmap_check.py` recomputes the layer shares and the timing statistics from it into
+`results/altmap_v6.json`. This is variant V6 of the sensitivity analysis.
+
+`tools/second_coder.py` codes the layer of each changed file a second time, independently of its path:
+it reads the file as it stood at the analysed head and labels it from language and content signals
+alone. It writes `results/second_coding.json`, which reports Cohen's kappa against the published path
+mapping for both deployments, before and after the content coder was given rules for the client
+languages and plain-text notes, and the per-layer breakdown of where the two codings disagree.

@@ -1,0 +1,96 @@
+{
+  "published": {
+    "n_commits": 609,
+    "total_lines": 186798,
+    "shares": {
+      "views_and_clients": 40.0,
+      "tooling_and_documents": 36.1,
+      "application_modules": 12.8,
+      "other": 5.0,
+      "tests": 2.8,
+      "schema": 2.6,
+      "rubric_configuration": 0.5,
+      "scoring_engine": 0.1,
+      "oo_core": 0.1
+    },
+    "median_position": {
+      "application_modules": 232,
+      "oo_core": 577,
+      "other": 385,
+      "rubric_configuration": 116,
+      "schema": 197.5,
+      "scoring_engine": 25,
+      "tests": 228.0,
+      "tooling_and_documents": 294.0,
+      "views_and_clients": 383.5
+    },
+    "last_position": {
+      "other": 607,
+      "application_modules": 607,
+      "views_and_clients": 607,
+      "tooling_and_documents": 609,
+      "tests": 555,
+      "scoring_engine": 579,
+      "schema": 609,
+      "rubric_configuration": 603,
+      "oo_core": 577
+    },
+    "criteria_last_change_position": 603,
+    "criteria_settle_before_every_other_layer": false,
+    "other_layers_last_position": {
+      "application_modules": 607,
+      "views_and_clients": 607,
+      "tooling_and_documents": 609,
+      "tests": 555,
+      "schema": 609,
+      "oo_core": 577
+    }
+  },
+  "v6_alternative": {
+    "n_commits": 609,
+    "total_lines": 186798,
+    "shares": {
+      "views_and_clients": 40.8,
+      "tooling_and_documents": 30.6,
+      "application_modules": 17.9,
+      "schema": 4.2,
+      "other": 3.0,
+      "tests": 2.8,
+      "rubric_configuration": 0.5,
+      "scoring_engine": 0.1,
+      "oo_core": 0.1
+    },
+    "median_position": {
+      "application_modules": 253.5,
+      "oo_core": 577,
+      "other": 499.5,
+      "rubric_configuration": 116,
+      "schema": 207,
+      "scoring_engine": 25,
+      "tests": 228.0,
+      "tooling_and_documents": 298.5,
+      "views_and_clients": 386
+    },
+    "last_position": {
+      "other": 605,
+      "application_modules": 607,
+      "views_and_clients": 607,
+      "tooling_and_documents": 609,
+      "tests": 555,
+      "scoring_engine": 579,
+      "schema": 609,
+      "rubric_configuration": 603,
+      "oo_core": 577
+    },
+    "criteria_last_change_position": 603,
+    "criteria_settle_before_every_other_layer": false,
+    "other_layers_last_position": {
+      "application_modules": 607,
+      "views_and_clients": 607,
+      "tooling_and_documents": 609,
+      "tests": 555,
+      "schema": 609,
+      "oo_core": 577
+    }
+  }
+}
