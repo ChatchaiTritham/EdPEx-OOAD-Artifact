@@ -86,3 +86,13 @@ it reads the file as it stood at the analysed head and labels it from language a
 alone. It writes `results/second_coding.json`, which reports Cohen's kappa against the published path
 mapping for both deployments, before and after the content coder was given rules for the client
 languages and plain-text notes, and the per-layer breakdown of where the two codings disagree.
+
+## Exact timing statistics (v1.8.1)
+
+`src/timing_exact.py` recomputes the RQ2 timing results with statistics that are defensible at the
+sample sizes involved (nine rubric-configuration commits and seven scoring-engine commits). It refers
+the one-sample Kolmogorov-Smirnov statistic to its exact null, drawing each layer's commit positions
+uniformly without replacement from the deployment's commit sequence 200,000 times; it adds an exact
+binomial test of the share of a layer's commits falling in the first fifth of the sequence; and it
+reports the criteria-versus-schema comparison with a rank-biserial correlation and a bootstrap
+confidence interval for that effect size. Results in `results/timing_exact.json`.
