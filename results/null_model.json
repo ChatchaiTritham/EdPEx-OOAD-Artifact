@@ -1,0 +1,23 @@
+{
+ "draws": 100000,
+ "seed": 20261011,
+ "commits": 609,
+ "vs_other_product_commits": {
+  "pool_size": 403,
+  "observed_median": 55.0,
+  "null_median_mean": 304.9,
+  "p_median": 9.99990000099999e-06,
+  "observed_first_fifth": 12,
+  "null_first_fifth_mean": 3.25,
+  "p_first_fifth": 9.99990000099999e-06
+ },
+ "vs_application_module_commits": {
+  "pool_size": 160,
+  "observed_median": 55.0,
+  "null_median_mean": 225.1,
+  "p_median": 3.999960000399996e-05,
+  "observed_first_fifth": 12,
+  "null_first_fifth_mean": 5.11,
+  "p_first_fifth": 0.0001999980000199998
+ }
+}

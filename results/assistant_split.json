@@ -1,0 +1,126 @@
+{
+ "round1": {
+  "commits": 609,
+  "with_trailer": 583,
+  "share_of_lines_with_trailer": 0.946,
+  "per_layer": {
+   "application_modules": {
+    "commits": 169,
+    "with_trailer": 167
+   },
+   "oo_core": {
+    "commits": 1,
+    "with_trailer": 1
+   },
+   "other": {
+    "commits": 69,
+    "with_trailer": 67
+   },
+   "rubric_configuration": {
+    "commits": 9,
+    "with_trailer": 9
+   },
+   "schema": {
+    "commits": 58,
+    "with_trailer": 56
+   },
+   "scoring_engine": {
+    "commits": 7,
+    "with_trailer": 7
+   },
+   "tests": {
+    "commits": 44,
+    "with_trailer": 44
+   },
+   "tooling_and_documents": {
+    "commits": 350,
+    "with_trailer": 340
+   },
+   "views_and_clients": {
+    "commits": 276,
+    "with_trailer": 260
+   }
+  },
+  "positions_without_trailer": [
+   5,
+   63,
+   188,
+   189,
+   191,
+   386,
+   388,
+   390,
+   395,
+   396,
+   416,
+   422,
+   423,
+   432,
+   439,
+   441,
+   444,
+   445,
+   448,
+   452,
+   455,
+   457,
+   461,
+   462,
+   468,
+   469
+  ],
+  "trailer_only": {
+   "criteria_bearing": {
+    "n": 16,
+    "first_fifth": 12,
+    "median": 55.0,
+    "p_binomial": 3.301343232000005e-06
+   },
+   "schema": {
+    "n": 56,
+    "first_fifth": 14,
+    "median": 194.5,
+    "p_binomial": 0.21703121770090072
+   },
+   "criteria_earlier_than_schema": {
+    "p_mannwhitney_one_sided": 0.0008572506895126392,
+    "rank_biserial": -0.518
+   }
+  }
+ },
+ "round2": {
+  "commits": 37,
+  "with_trailer": 35,
+  "share_of_lines_with_trailer": 0.991,
+  "per_layer": {
+   "application_modules": {
+    "commits": 10,
+    "with_trailer": 10
+   },
+   "oo_core": {
+    "commits": 3,
+    "with_trailer": 3
+   },
+   "other": {
+    "commits": 16,
+    "with_trailer": 15
+   },
+   "schema": {
+    "commits": 7,
+    "with_trailer": 7
+   },
+   "tests": {
+    "commits": 2,
+    "with_trailer": 2
+   },
+   "tooling_and_documents": {
+    "commits": 17,
+    "with_trailer": 16
+   },
+   "views_and_clients": {
+    "commits": 17,
+    "with_trailer": 16
+   }
+  }
+ }
+}
