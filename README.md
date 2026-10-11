@@ -105,3 +105,12 @@ at the Wiley one-column text width from `results/churn.json` and `snapshot/`, th
 cumulative share of each layer's commits against an even spread, the quantity the Kolmogorov-Smirnov
 test uses. PDF metadata dates are suppressed, so the output in `figures/jsep/` is byte-identical on
 rerun with the same Matplotlib version.
+
+## Review checks of the timing result (v1.9.0)
+
+`src/review_checks.py` answers objections to the RQ2 timing tests without resampling: it varies the
+first-fifth cut-off from 0.1 to 0.5, applies the first-fifth test to every layer with at least five
+commits (base rate of a front-loaded build), Holm-adjusts the eight tests of Table 2 as one family,
+reports the share of changed lines carried by commits above the 95th percentile, the size of the
+criteria-bearing commits and their presence at the import, and the probability of observing no
+criteria-bearing commit in the second deployment's 37 commits. Results in `results/review_checks.json`.
