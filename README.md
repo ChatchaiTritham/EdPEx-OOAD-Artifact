@@ -96,3 +96,12 @@ uniformly without replacement from the deployment's commit sequence 200,000 time
 binomial test of the share of a layer's commits falling in the first fifth of the sequence; and it
 reports the criteria-versus-schema comparison with a rank-biserial correlation and a bootstrap
 confidence interval for that effect size. Results in `results/timing_exact.json`.
+
+## Journal figures (v1.8.2)
+
+`src/jsep_figures.py` redraws Figures 1-4 of the Journal of Software: Evolution and Process article
+at the Wiley one-column text width from `results/churn.json` and `snapshot/`, the same data as
+`src/churn.py` and `src/make_figures.py`. Only the presentation differs: panel B of Figure 1 shows the
+cumulative share of each layer's commits against an even spread, the quantity the Kolmogorov-Smirnov
+test uses. PDF metadata dates are suppressed, so the output in `figures/jsep/` is byte-identical on
+rerun with the same Matplotlib version.
