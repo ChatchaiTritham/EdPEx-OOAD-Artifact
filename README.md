@@ -114,3 +114,13 @@ commits (base rate of a front-loaded build), Holm-adjusts the eight tests of Tab
 reports the share of changed lines carried by commits above the 95th percentile, the size of the
 criteria-bearing commits and their presence at the import, and the probability of observing no
 criteria-bearing commit in the second deployment's 37 commits. Results in `results/review_checks.json`.
+## Assistant trailers, activity-matched null model and human-coding kits (v1.10.0)
+
+- `tools/extract_trailers.py` (authors only) records, per commit, the AI-assistant `Co-Authored-By` trailer
+  and nothing else from the message, in `data/assistant_trailers.json`.
+- `src/assistant_split.py` reports trailer coverage by layer and repeats the RQ2 timing tests on the
+  trailer-bearing commits (`results/assistant_split.json`).
+- `src/null_model.py` compares the criteria-bearing commits with 100,000 random sets of 16 commits drawn
+  from the other product layers and from the application modules alone (`results/null_model.json`).
+- `tools/make_coding_kits.py` (authors only) builds blinded kits for an independent layer coder and an
+  independent tracer; `src/human_agreement.py` scores the filled kits (`results/human_agreement.json`).
