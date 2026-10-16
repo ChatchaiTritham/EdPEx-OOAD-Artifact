@@ -1,0 +1,101 @@
+{
+  "head": "71b24a13f",
+  "commits_after_baseline": 7983,
+  "first_date": "2023-09-20",
+  "last_date": "2026-10-16",
+  "lines_changed": 6249501,
+  "layers": {
+    "rubric_configuration": {
+      "commits": 499,
+      "lines_changed": 2683476,
+      "share_of_lines": 0.4294,
+      "lines_at_head": 1470055,
+      "changed_per_line": 1.825,
+      "last_change": "2026-10-16"
+    },
+    "scoring_engine": {
+      "commits": 0,
+      "lines_changed": 0,
+      "share_of_lines": 0.0,
+      "lines_at_head": 0,
+      "changed_per_line": null,
+      "last_change": null
+    },
+    "schema": {
+      "commits": 543,
+      "lines_changed": 69864,
+      "share_of_lines": 0.0112,
+      "lines_at_head": 38706,
+      "changed_per_line": 1.805,
+      "last_change": "2026-10-16"
+    },
+    "tests": {
+      "commits": 807,
+      "lines_changed": 189866,
+      "share_of_lines": 0.0304,
+      "lines_at_head": 145500,
+      "changed_per_line": 1.305,
+      "last_change": "2026-10-16"
+    },
+    "oo_core": {
+      "commits": 938,
+      "lines_changed": 51178,
+      "share_of_lines": 0.0082,
+      "lines_at_head": 27462,
+      "changed_per_line": 1.864,
+      "last_change": "2026-10-16"
+    },
+    "views_and_clients": {
+      "commits": 3537,
+      "lines_changed": 1634755,
+      "share_of_lines": 0.2616,
+      "lines_at_head": 348988,
+      "changed_per_line": 4.684,
+      "last_change": "2026-10-16"
+    },
+    "tooling_and_documents": {
+      "commits": 1430,
+      "lines_changed": 1152293,
+      "share_of_lines": 0.1844,
+      "lines_at_head": 180824,
+      "changed_per_line": 6.372,
+      "last_change": "2026-10-16"
+    },
+    "application_modules": {
+      "commits": 1939,
+      "lines_changed": 269667,
+      "share_of_lines": 0.0432,
+      "lines_at_head": 182887,
+      "changed_per_line": 1.475,
+      "last_change": "2026-10-16"
+    },
+    "other": {
+      "commits": 667,
+      "lines_changed": 198402,
+      "share_of_lines": 0.0317,
+      "lines_at_head": 52328,
+      "changed_per_line": 3.792,
+      "last_change": "2026-10-16"
+    }
+  },
+  "timing": {
+    "rubric_ks_vs_uniform": {
+      "n": 499,
+      "D": 0.147,
+      "p": 7.091705694883685e-10,
+      "median_rel": 0.607
+    },
+    "schema_ks_vs_uniform": {
+      "n": 543,
+      "D": 0.139,
+      "p": 1.1184428799264505e-09,
+      "median_rel": 0.583
+    },
+    "criteria_earlier_than_schema_mannwhitney_p": 0.275851332948452,
+    "criteria_later_than_schema_mannwhitney_p": 0.7242175246324607,
+    "all_but_one_position": {
+      "rubric_configuration": 1.0,
+      "schema": 1.0
+    }
+  }
+}

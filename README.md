@@ -123,4 +123,7 @@ criteria-bearing commit in the second deployment's 37 commits. Results in `resul
 - `src/null_model.py` compares the criteria-bearing commits with 100,000 random sets of 16 commits drawn
   from the other product layers and from the application modules alone (`results/null_model.json`).
 - `tools/make_coding_kits.py` (authors only) builds blinded kits for an independent layer coder and an
-  independent tracer; `src/human_agreement.py` scores the filled kits (`results/human_agreement.json`).
+  independent tracer; `src/human_agreement.py` scores the filled kits (`results/human_agreement.json`).- Replication on a public system of the contrasting kind (criteria kept as a growing YAML framework
+  library): `tools/extract_churn_ciso.py <clone of https://github.com/intuitem/ciso-assistant-community>`
+  writes `data/churn_counts_ciso.json` (analysed head `71b24a13f`); `src/replication_ciso.py` repeats the
+  layer-share, KS and Mann-Whitney timing tests (`results/replication_ciso.json`).
