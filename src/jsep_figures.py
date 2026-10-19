@@ -60,12 +60,12 @@ def figure1(s):
     b.axvspan(0, 0.2, color=C["grey"], alpha=0.10, lw=0)
     b.text(0.1, 0.94, "first fifth", ha="center", fontsize=7, color=C["grey"])
     b.plot([0, 1], [0, 1], ls="--", lw=0.8, color=C["grey"], label="Even spread")
-    for key, col, lab in (("rubric_change_positions", C["blue"], "Rubric configuration"),
-                          ("engine_change_positions", C["verm"], "Scoring engine"),
-                          ("schema_change_positions", C["green"], "Database schema")):
+    for key, col, ls, lab in (("rubric_change_positions", C["blue"], "-", "Rubric configuration"),
+                              ("engine_change_positions", C["verm"], "-.", "Scoring engine"),
+                              ("schema_change_positions", C["green"], ":", "Database schema")):
         pos = np.array(r1[key]) / n
         k = len(pos)
-        b.step(np.r_[0, pos, 1], np.r_[0, np.arange(1, k + 1) / k, 1], where="post", color=col, lw=1.3,
+        b.step(np.r_[0, pos, 1], np.r_[0, np.arange(1, k + 1) / k, 1], where="post", color=col, ls=ls, lw=1.3,
                label=f"{lab} ($n={k}$)")
     b.set_xlim(0, 1)
     b.set_ylim(0, 1.02)
@@ -102,6 +102,10 @@ def figure3():
         ax.step(np.arange(1, len(cum) + 1), cum, where="post", color=col, lw=1.3, label=lab)
         ax.annotate(f"{cum[-1]} tables, {len(files)} files", (len(cum), cum[-1]), xytext=(-4, 4),
                     textcoords="offset points", ha="right", va="bottom", color=col)
+    names = [sorted(f.name for f in (ART / "snapshot" / r / "schema_ddl").glob("*.sql")) for r in ("round1", "round2")]
+    split = next((i for i, (x, y) in enumerate(zip(*names)) if x != y), min(map(len, names)))
+    ax.axvline(split + 0.5, color=C["grey"], ls=":", lw=0.8)
+    ax.text(split + 1.5, 285, f"curves diverge after file {split}", fontsize=7, color=C["grey"], va="top")
     ax.set_xlabel("Migration file (in execution order)")
     ax.set_ylabel("Cumulative table definitions")
     ax.legend(frameon=False, loc="upper left")
