@@ -132,3 +132,5 @@ criteria-bearing commit in the second deployment's 37 commits. Results in `resul
   library): `tools/extract_churn_ciso.py <clone of https://github.com/intuitem/ciso-assistant-community>`
   writes `data/churn_counts_ciso.json` (analysed head `71b24a13f`); `src/replication_ciso.py` repeats the
   layer-share, KS and Mann-Whitney timing tests (`results/replication_ciso.json`).
+
+- `src/live_tables.py` -> `results/live_tables.json`: table definitions and tables remaining after DROP/RENAME in each deployment (v1.13.2).

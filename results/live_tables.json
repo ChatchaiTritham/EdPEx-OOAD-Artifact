@@ -1,0 +1,16 @@
+{
+  "round1": {
+    "migration_files": 92,
+    "create_table_statements": 120,
+    "drop_table_statements": 3,
+    "rename_statements": 0,
+    "tables_at_head": 117
+  },
+  "round2": {
+    "migration_files": 146,
+    "create_table_statements": 260,
+    "drop_table_statements": 8,
+    "rename_statements": 0,
+    "tables_at_head": 252
+  }
+}
