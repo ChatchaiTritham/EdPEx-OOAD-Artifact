@@ -116,31 +116,42 @@ def figure3():
 
 
 def figure4():
-    cfg = json.loads((ART / "snapshot" / "round2" / "config" / "edpex.json").read_text(encoding="utf-8"))
-    emap = json.loads((ART / "snapshot" / "round2" / "config" / "cat7_evidence_map.json").read_text(encoding="utf-8"))["map"]
-    res = [i["code"] for c in cfg["categories"] if c["key"] == "results" for i in c["items"]]
-    proc = [i["code"] for c in cfg["categories"] if c["key"] != "results" for i in c["items"]]
-    mat = np.zeros((len(proc), len(res)), dtype=int)
-    for r, item in enumerate(proc):
-        for code in emap.get(item, []):
-            mat[r, res.index(f"7.{code.split('-')[1]}")] += 1
-    fig, ax = plt.subplots(figsize=(W * 0.55, W * 0.55))
-    im = ax.imshow(mat, cmap="Blues", aspect="auto", vmin=0)
-    ax.set_xticks(range(len(res)), res)
-    ax.set_yticks(range(len(proc)), proc)
-    ax.set_xlabel("Results item (category 7)")
-    ax.set_ylabel("Process item (categories 1–6)")
-    for (r, c), v in np.ndenumerate(mat):
-        if v:
-            ax.text(c, r, str(v), ha="center", va="center", color="white" if v > mat.max() * 0.55 else "black")
-    cb = fig.colorbar(im, ax=ax, fraction=0.05, pad=0.03)
+    """Process item x results item links: A = first deployment, B = second; shared greyscale scale."""
+    mats = []
+    for rnd in ("round1", "round2"):
+        cfg = json.loads((ART / "snapshot" / rnd / "config" / "edpex.json").read_text(encoding="utf-8"))
+        emap = json.loads((ART / "snapshot" / rnd / "config" / "cat7_evidence_map.json").read_text(encoding="utf-8"))["map"]
+        res = [i["code"] for c in cfg["categories"] if c["key"] == "results" for i in c["items"]]
+        proc = [i["code"] for c in cfg["categories"] if c["key"] != "results" for i in c["items"]]
+        mat = np.zeros((len(proc), len(res)), dtype=int)
+        for r, item in enumerate(proc):
+            for code in emap.get(item, []):
+                mat[r, res.index(f"7.{code.split('-')[1]}")] += 1
+        mats.append((mat, res, proc, len({code for v in emap.values() for code in v})))
+    vmax = max(m.max() for m, *_ in mats)
+    fig, axes = plt.subplots(1, 2, figsize=(W, W * 0.5), sharey=True)
+    for k, (ax, (mat, res, proc, distinct)) in enumerate(zip(axes, mats)):
+        im = ax.imshow(mat, cmap="Greys", aspect="auto", vmin=0, vmax=vmax)
+        ax.set_xticks(range(len(res)), res)
+        ax.set_yticks(range(len(proc)), proc)
+        ax.set_xlabel("Results item (category 7)")
+        if k == 0:
+            ax.set_ylabel("Process item (categories 1–6)")
+        for (r, c), v in np.ndenumerate(mat):
+            if v:
+                ax.text(c, r, str(v), ha="center", va="center", color="white" if v > vmax * 0.55 else "black")
+        for sp in ax.spines.values():
+            sp.set_visible(False)
+        linked = int((mat.sum(axis=1) > 0).sum())
+        ax.set_title(f"{DEP[k]}\n{linked} of {len(proc)} items linked, {distinct} indicators", loc="left")
+        panel(ax, "AB"[k])
+    cb = fig.colorbar(im, ax=list(axes), fraction=0.03, pad=0.02)
     cb.set_label("Linked indicators")
     cb.outline.set_linewidth(0.6)
-    for sp in ax.spines.values():
-        sp.set_visible(False)
-    fig.subplots_adjust(left=0.16, right=0.88, bottom=0.12, top=0.98)
+    fig.subplots_adjust(left=0.1, right=0.86, bottom=0.12, top=0.86, wspace=0.3)
     save(fig, "figure4_linkage")
-    assert int((mat.sum(axis=1) > 0).sum()) == 12 and int(mat.sum()) > 0
+    counts = [(int((m.sum(axis=1) > 0).sum()), d) for m, _, _, d in mats]
+    assert counts == [(5, 40), (12, 61)], counts
 
 
 if __name__ == "__main__":

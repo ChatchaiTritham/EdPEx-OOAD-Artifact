@@ -1,0 +1,118 @@
+{
+ "seed": 20260915,
+ "resamples": 5000,
+ "commits_excluding_baseline": 609,
+ "first_fifth_hypergeometric": {
+  "rubric_configuration": {
+   "n": 9,
+   "in_first_fifth": 6,
+   "cutoff_position": 121,
+   "p_exact_hypergeometric": 0.0027383193028030143,
+   "p_binomial": 0.0030663680000000025
+  },
+  "scoring_engine": {
+   "n": 7,
+   "in_first_fifth": 6,
+   "cutoff_position": 121,
+   "p_exact_hypergeometric": 0.0003255707208009678,
+   "p_binomial": 0.00037120000000000024
+  },
+  "schema": {
+   "n": 58,
+   "in_first_fifth": 14,
+   "cutoff_position": 121,
+   "p_exact_hypergeometric": 0.24242955148965373,
+   "p_binomial": 0.2599439793080243
+  },
+  "criteria_bearing": {
+   "n": 16,
+   "in_first_fifth": 12,
+   "cutoff_position": 121,
+   "p_exact_hypergeometric": 2.0888188568324873e-06,
+   "p_binomial": 3.301343232000005e-06
+  }
+ },
+ "point_estimates": {
+  "criteria_intensity": 0.711,
+  "schema_intensity": 0.891,
+  "rank_biserial": -0.524
+ },
+ "published_iid": {
+  "criteria_intensity": [
+   0.71,
+   0.14,
+   1.6
+  ],
+  "schema_intensity": [
+   0.89,
+   0.59,
+   1.22
+  ],
+  "rank_biserial": [
+   -0.524,
+   -0.804,
+   -0.187
+  ]
+ },
+ "sign_convention": "rank_biserial = 2U/(n_a n_b) - 1, a = criteria-bearing positions, b = schema positions; negative = criteria changes earlier",
+ "moving_block_bootstrap_circular": {
+  "L5": {
+   "block_length": 5,
+   "criteria_intensity_ci95": [
+    0.103,
+    1.636
+   ],
+   "schema_intensity_ci95": [
+    0.537,
+    1.293
+   ],
+   "rank_biserial_ci95": [
+    -0.802,
+    -0.173
+   ],
+   "rank_biserial_valid_resamples": 5000
+  },
+  "L10": {
+   "block_length": 10,
+   "criteria_intensity_ci95": [
+    0.094,
+    1.693
+   ],
+   "schema_intensity_ci95": [
+    0.505,
+    1.353
+   ],
+   "rank_biserial_ci95": [
+    -0.792,
+    -0.176
+   ],
+   "rank_biserial_valid_resamples": 5000
+  },
+  "L20": {
+   "block_length": 20,
+   "criteria_intensity_ci95": [
+    0.072,
+    1.637
+   ],
+   "schema_intensity_ci95": [
+    0.484,
+    1.396
+   ],
+   "rank_biserial_ci95": [
+    -0.758,
+    -0.116
+   ],
+   "rank_biserial_valid_resamples": 4999
+  }
+ },
+ "rank_biserial_iid_percentile_vs_bca": {
+  "percentile": [
+   -0.807,
+   -0.191
+  ],
+  "BCa": [
+   -0.776,
+   -0.127
+  ]
+ }
+}
