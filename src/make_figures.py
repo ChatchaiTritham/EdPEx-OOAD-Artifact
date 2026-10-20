@@ -28,7 +28,7 @@ plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 8, "axes.titlesi
 
 def save(fig, name):
     OUT.mkdir(exist_ok=True)
-    fig.savefig(OUT / f"{name}.pdf", bbox_inches=None)
+    fig.savefig(OUT / f"{name}.pdf", bbox_inches=None, metadata={"CreationDate": None, "Creator": None, "Producer": None})
     fig.savefig(OUT / f"{name}.png", dpi=600, bbox_inches=None)
     plt.close(fig)
 
