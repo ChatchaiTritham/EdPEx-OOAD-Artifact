@@ -105,6 +105,11 @@ at the Wiley one-column text width from `results/churn.json` and `snapshot/`, th
 cumulative share of each layer's commits against an even spread, the quantity the Kolmogorov-Smirnov
 test uses. PDF metadata dates are suppressed, so the output in `figures/jsep/` is byte-identical on
 rerun with the same Matplotlib version.
+Since v1.13.0 Figure 4 has two panels on a shared greyscale scale: A, the first deployment (5 of 12 process items linked, 40 distinct indicators) and B, the second (12 of 12, 61), both read from `snapshot/round*/config/cat7_evidence_map.json`; the script asserts these counts.
+
+## Robustness checks, review round 4 (v1.13.0)
+
+`src/robustness_r4.py` writes `results/robustness_r4.json` and changes no other result: (a) the first-fifth test with the exact hypergeometric null (positions drawn without replacement from the 609 commits, cut-off 609/5 as in `src/timing_exact.py`) beside the binomial p-values; (b) a circular moving-block bootstrap (blocks of 5, 10 and 20 consecutive commits, 5,000 resamples, seed 20260915) of the intensity intervals for the criteria-bearing layers and the schema and of the rank-biserial interval for criteria-bearing against schema positions (negative = criteria earlier); (c) percentile against BCa intervals for the iid rank-biserial bootstrap. Output is byte-identical on rerun.
 
 ## Review checks of the timing result (v1.9.0)
 
