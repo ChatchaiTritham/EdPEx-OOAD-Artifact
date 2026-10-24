@@ -134,3 +134,18 @@ criteria-bearing commit in the second deployment's 37 commits. Results in `resul
   layer-share, KS and Mann-Whitney timing tests (`results/replication_ciso.json`).
 
 - `src/live_tables.py` -> `results/live_tables.json`: table definitions and tables remaining after DROP/RENAME in each deployment (v1.13.2).
+
+## Cross-domain test (v1.14.0, pre-registered at tag `prereg-20261024`)
+
+Twelve criteria-driven systems (this one plus eleven public repositories) and three criteria-encoding
+mechanisms (code, data library, policy/measure DSL). Systems, path rules, predictions, metrics and the
+verdict rule are frozen in `prereg/`; deviations are listed in `prereg/DEVIATIONS.md`.
+
+```
+git clone --bare --filter=blob:none <url> x.git      # metadata only; no blobs are needed
+python tools/extract_crossdomain.py <system-key> x.git   # -> data/crossdomain/<key>.json
+python src/crossdomain.py                            # -> results/crossdomain.json (seed 20261024)
+python src/crossdomain_figure.py                     # -> figures/jsep/figure_crossdomain.pdf
+```
+The heads mined are recorded in each data file. Outcome: the pre-registered hypothesis was not supported
+(see results/crossdomain.json, "hypotheses").
