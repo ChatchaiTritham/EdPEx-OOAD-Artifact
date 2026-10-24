@@ -1,0 +1,17 @@
+{
+ "_note": "Fixed before any positional statistic was computed (2026-10-24). Path rules were written after listing directory names touched over each history, never after looking at commit positions. 'criteria' is a Python regex matched (re.search) against the forward-slash path; 'exclude' removes matches. 'mechanism' is the primary moderator; 'closure' the competing moderator.",
+ "systems": {
+  "edpex": {"source": "private (data/churn_counts.json round1)", "domain": "higher-education excellence self-assessment (EdPEx)", "mechanism": "code", "closure": "closed", "criteria": "rubric_configuration|scoring_engine", "exclude": null},
+  "html_codesniffer": {"source": "https://github.com/squizlabs/HTML_CodeSniffer", "domain": "web accessibility (WCAG 2.0/2.1, Section 508)", "mechanism": "code", "closure": "closed", "criteria": "^Standards/", "exclude": null},
+  "axe_core": {"source": "https://github.com/dequelabs/axe-core", "domain": "web accessibility (WCAG 2.x, ACT rules, best practice)", "mechanism": "code", "closure": "open", "criteria": "^lib/(rules|checks)/", "exclude": null},
+  "lynis": {"source": "https://github.com/CISOfy/lynis", "domain": "host security auditing / hardening", "mechanism": "code", "closure": "open", "criteria": "^include/tests_", "exclude": null},
+  "checkov": {"source": "https://github.com/bridgecrewio/checkov", "domain": "infrastructure-as-code security / CIS compliance", "mechanism": "code", "closure": "open", "criteria": "^checkov/.*/checks/", "exclude": "/tests?/"},
+  "ciso_assistant": {"source": "https://github.com/intuitem/ciso-assistant-community", "domain": "GRC / multi-framework compliance (ISO 27001, NIST CSF, ...)", "mechanism": "data", "closure": "open", "criteria": "^(backend/)?library/libraries/.*\.ya?ml$", "exclude": null},
+  "kube_bench": {"source": "https://github.com/aquasecurity/kube-bench", "domain": "Kubernetes CIS Benchmark compliance", "mechanism": "data", "closure": "open", "criteria": "^cfg/", "exclude": null},
+  "complianceascode": {"source": "https://github.com/ComplianceAsCode/content", "domain": "OS/platform compliance content (SCAP; STIG, CIS, NIST 800-53)", "mechanism": "data", "closure": "open", "criteria": "(^|/)(guide|controls|profiles|input|xccdf|oval|checks)/|rule\.yml$|\.profile$", "exclude": "^(tests|utils|build-scripts|ssg|docs|cmake|\.github)/"},
+  "gatekeeper_library": {"source": "https://github.com/open-policy-agent/gatekeeper-library", "domain": "Kubernetes admission policy (Pod Security Standards, general)", "mechanism": "dsl", "closure": "open", "criteria": "^src/.*\.rego$|^library/.*/template\.yaml$", "exclude": "_test\.rego$"},
+  "kyverno_policies": {"source": "https://github.com/kyverno/policies", "domain": "Kubernetes policy library (Pod Security Standards, best practice)", "mechanism": "dsl", "closure": "open", "criteria": "\.ya?ml$", "exclude": "(^\.|/\.chainsaw-test/|/\.kyverno-test/|artifacthub-pkg\.yml$|kustomization\.yaml$|^_step-templates/|/resource\.yaml$|/test[^/]*\.yaml$)"},
+  "trivy_checks": {"source": "https://github.com/aquasecurity/trivy-checks", "domain": "cloud / Kubernetes misconfiguration checks (CIS, vendor)", "mechanism": "dsl", "closure": "open", "criteria": "^(checks|rules)/.*\.rego$", "exclude": "_test\.rego$"},
+  "ecqm_content_r4": {"source": "https://github.com/cqframework/ecqm-content-r4", "domain": "clinical quality measures (CMS eCQMs, CQL/FHIR)", "mechanism": "dsl", "closure": "open", "criteria": "^input/cql/|^input/resources/(measure|library)/", "exclude": null}
+ }
+}
