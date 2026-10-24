@@ -1,0 +1,134 @@
+{
+ "note": "exploratory, not pre-specified",
+ "systems": {
+  "edpex": {
+   "late": 2,
+   "k": 16,
+   "L20_ci95": [
+    0.016,
+    0.383
+   ],
+   "date_inversions": 0
+  },
+  "html_codesniffer": {
+   "late": 36,
+   "k": 279,
+   "L20_ci95": [
+    0.092,
+    0.174
+   ],
+   "date_inversions": 5
+  },
+  "axe_core": {
+   "late": 222,
+   "k": 1221,
+   "L20_ci95": [
+    0.161,
+    0.205
+   ],
+   "date_inversions": 110
+  },
+  "lynis": {
+   "late": 228,
+   "k": 1343,
+   "L20_ci95": [
+    0.15,
+    0.191
+   ],
+   "date_inversions": 18
+  },
+  "checkov": {
+   "late": 526,
+   "k": 2694,
+   "L20_ci95": [
+    0.18,
+    0.211
+   ],
+   "date_inversions": 147
+  },
+  "ciso_assistant": {
+   "late": 129,
+   "k": 504,
+   "L20_ci95": [
+    0.218,
+    0.296
+   ],
+   "date_inversions": 44
+  },
+  "kube_bench": {
+   "late": 33,
+   "k": 293,
+   "L20_ci95": [
+    0.079,
+    0.155
+   ],
+   "date_inversions": 15
+  },
+  "complianceascode": {
+   "late": 4448,
+   "k": 21795,
+   "L20_ci95": [
+    0.199,
+    0.209
+   ],
+   "date_inversions": 2829
+  },
+  "gatekeeper_library": {
+   "late": 5,
+   "k": 138,
+   "L20_ci95": [
+    0.012,
+    0.083
+   ],
+   "date_inversions": 2
+  },
+  "kyverno_policies": {
+   "late": 133,
+   "k": 906,
+   "L20_ci95": [
+    0.124,
+    0.172
+   ],
+   "date_inversions": 28
+  },
+  "trivy_checks": {
+   "late": 63,
+   "k": 238,
+   "L20_ci95": [
+    0.21,
+    0.326
+   ],
+   "date_inversions": 76
+  },
+  "ecqm_content_r4": {
+   "late": 1,
+   "k": 61,
+   "L20_ci95": [
+    0.0,
+    0.088
+   ],
+   "date_inversions": 1
+  }
+ },
+ "fisher_min_p": {
+  "H1_mechanism (5 predicted of 12)": 0.0012626262626262627,
+  "H2_closure (2 predicted of 12)": 0.015151515151515152
+ },
+ "without_edpex": {
+  "H1": {
+   "correct": 6,
+   "of": 11,
+   "fisher_p": 1.0
+  },
+  "H2": {
+   "correct": 9,
+   "of": 11,
+   "fisher_p": 1.0
+  }
+ },
+ "H1_edpex_as_data": {
+  "correct": 7,
+  "of": 12,
+  "fisher_p": 1.0
+ }
+}
