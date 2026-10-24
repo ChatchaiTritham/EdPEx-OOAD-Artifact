@@ -149,3 +149,9 @@ python src/crossdomain_figure.py                     # -> figures/jsep/figure_cr
 ```
 The heads mined are recorded in each data file. Outcome: the pre-registered hypothesis was not supported
 (see results/crossdomain.json, "hypotheses").
+
+### Exploratory analyses (added after review; not pre-specified)
+- `src/crossdomain_sensitivity.py` -> `results/crossdomain_sensitivity.json` (v1.15.0): verdict-rule grid, closure recoding, HKSJ intervals.
+- `src/crossdomain_review2.py` -> `results/crossdomain_review2.json` (v1.16.0): exact L20 CIs, minimum attainable Fisher p, leave-EdPEx-out, date inversions.
+- `docs/closure_codebook.md`, `docs/candidates.md` (retrospective candidate log).
+- Note: `prereg/systems.json` writes regex backslashes singly and is not valid JSON for `json.load`; the scripts read backslashes literally (see `prereg/DEVIATIONS.md`).

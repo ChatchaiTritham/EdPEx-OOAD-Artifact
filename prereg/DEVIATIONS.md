@@ -5,3 +5,7 @@
    rule means exactly what is written. No rule, system or threshold was changed.
 
 2. 2026-10-24, before any statistic: the first push of tag `prereg-20261024` reached GitHub pointing at commit 5caa7d4, which was then rebased onto the remote `main` (whose history had been rewritten without content change) as 631b4ca, tagged `prereg-20261024-main`. The `prereg/` files are identical in both commits. The remote tag was not force-moved.
+
+Note on item 2: the remote `main` had been rewritten by the repository owner before this study (commit trees identical,
+co-author trailer lines removed); the authors did not record when. Local history before the rewrite is kept on branch
+`backup-pre-rebase-20261024` in the authors' clone.
